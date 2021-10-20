@@ -1,0 +1,63 @@
+@import "./general.scss";
+
+.about {
+    display: block;
+    position: fixed;
+    z-index: 500;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    // max-width: 700px;
+    border-top: 2px solid black;
+    padding: 10px 10px 20px 10px;
+    visibility: hidden;
+    overflow: auto;
+    backdrop-filter: blur(20px);
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-transition: visibility 0s linear 1s, opacity 0.25s 0s, bottom 0.7s, -webkit-transform 1s;
+    transition: visibility 0s linear 1s, opacity 0.25s 0s, bottom 0.7s, -webkit-transform 1s;
+    -o-transition: visibility 0s linear 1s, opacity 0.25s 0s, transform 1s, bottom 0.7s;
+    -moz-transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s;
+    transition: visibility 0s linear 1s, opacity 0.25s 0s, transform 1s, bottom 0.7s;
+    transition: visibility 0s linear 1s, opacity 0.25s 0s, transform 1s, bottom 0.7s, -webkit-transform 1s;
+    > div {
+        margin: 10px 0;
+        max-width: 700px;
+    }
+    #songs, #greeting {
+        margin: 30px 0 0 0;
+    }
+    #clock {
+        font-feature-settings: "tnum";
+        margin: 0;
+    }
+    span a {
+        margin-right: 10px;
+    }
+}
+
+.about-show {
+    display: block;
+    position: fixed;
+    // max-width: 700px;
+    opacity: 1;
+    bottom: 0;
+    visibility: visible;
+    overflow: auto;
+    z-index: 500;
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-transition: visibility 0s linear 0s, opacity 0.25s 0s, bottom 0.7s, -webkit-transform 0.8s;
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, bottom 0.7s, -webkit-transform 0.8s;
+    -o-transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s;
+    -moz-transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s;
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s;
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.8s, bottom 0.7s, -webkit-transform 0.8s;
+}
