@@ -1,0 +1,19 @@
+// Main Colors: Blue #1E1CD8 Red #E91C23 Yellow #EAA206 
+// Try Colors: Light Blue #3d6cb9 Off White #f7e8e8 
+
+#canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #4592af;
+}
+
+#text {
+    position: absolute;
+    max-width: 700px;
+    #intro {
+        font-size: 50px;
+    }
+}

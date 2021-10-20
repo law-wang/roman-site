@@ -3,8 +3,9 @@
 $backgroundColor: #f2f2f2;
 $bodyColor: #000000;
 // $accentColor: #5B83A9;
-$accentColor: #EABD5F;
-$bodyFont: "Inter", sans-serif;
+// $accentColor: #EABD5F;
+$accentColor: #4592af;
+$bodyFont: "Times New Roman", "Inter", sans-serif;
 
 // GENERAL STYLES ****************************************************
 
@@ -33,7 +34,7 @@ $bodyFont: "Inter", sans-serif;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: $bodyColor;
     &:active {
         background-color: transparent;
@@ -55,7 +56,7 @@ button {
 
 @media (hover: hover) {
     a:hover {
-        text-decoration: underline;
+        text-decoration: none;
     }
     button:hover {
         text-decoration: underline;
@@ -91,7 +92,7 @@ body {
 header {
     z-index: 999;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
     left: 0;
     padding: 10px;
@@ -101,12 +102,13 @@ header {
     } 
     .navigation {
         display: flex;
-        div:not(:first-child) {
+        justify-content: flex-end;
+        nav {
             padding-left: 20px;
         }
     }
-    border-bottom: 2px solid black;
-    backdrop-filter: blur(20px);
+    // border-bottom: 2px solid black;
+    // backdrop-filter: blur(20px);
 }
 
 .background {
@@ -116,14 +118,15 @@ header {
     z-index: -999;
     top: 0;
     left: 0;
-    background: linear-gradient($accentColor 0%, $backgroundColor 90%);
+    // background: linear-gradient($accentColor 0%, $backgroundColor 90%);
+    background: $accentColor;
 }
 
 .container {
     max-width: 700px;
     min-height: 100vh;
     margin: 0 10px;
-    padding: 80px 0 50px 0;
+    padding: 10px 0 50px 0;
 }
 
 .mobile-hide {
