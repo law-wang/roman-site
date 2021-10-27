@@ -41,7 +41,7 @@ const Star = () => {
   return (
     <mesh position={[x, y, z]}>
       <sphereGeometry args={[size, 25, 25]} />
-      <meshStandardMaterial color="#eab203" />
+      <meshStandardMaterial color="#EAA206" />
     </mesh>
   )
 }
@@ -83,7 +83,7 @@ const Three = () => {
               >
 
                 <ambientLight intensity={0.8} />
-                <spotLight position={[5, 20, 20]} intensity={1} penumbra={1} castShadow />
+                <spotLight position={[0, 200, 0]} intensity={1} penumbra={1} castShadow />
                 {/* <fog attach="fog" args={["black", 10, 25]} /> */}
                 <Controls />
 
