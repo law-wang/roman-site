@@ -132,6 +132,11 @@ const Three = () => {
   return (
     <Layout>
       <SEO title="Home" />
+      
+      <section id="text">
+        <Text />
+      </section>
+      
       {isBrowser && (
           <section id="canvas">
               <Canvas
@@ -159,9 +164,6 @@ const Three = () => {
               </Canvas>
           </section>
       )}
-      <section id="text">
-        <Text />
-      </section>
     </Layout>
   )
 }
