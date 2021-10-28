@@ -100,7 +100,7 @@ const Text = () => {
   let greetingText = greetingArray[randomIndex]
 
   return (
-    <section>
+    <>
       <div id="intro">
         Lawrence Wang studies Computer Science & Economics and Political Science at Yale and is intersted in the intersection of design and computing. He aspires to be someone who draws, codes, and writes.
       </div>
@@ -121,7 +121,7 @@ const Text = () => {
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>
         </div>
       </footer>
-    </section>
+    </>
   )
 }
 
@@ -133,7 +133,7 @@ const Three = () => {
     <Layout>
       <SEO title="Home" />
       {isBrowser && (
-          <main id="canvas">
+          <section id="canvas">
               <Canvas
                 camera={{ position: [0, 0, 50], fov: 75, near: 0.1, far: 1000 }}
                 onCreated={({ gl }) => {
@@ -157,11 +157,11 @@ const Three = () => {
                 ))}
 
               </Canvas>
-          </main>
+          </section>
       )}
-      <main id="text">
+      <section id="text">
         <Text />
-      </main>
+      </section>
     </Layout>
   )
 }
