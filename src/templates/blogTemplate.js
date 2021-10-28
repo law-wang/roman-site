@@ -17,10 +17,12 @@ const BlogTemplate = ({ data, pageContext }) => {
             <SEO title={title.replace("&#58;", ":").replace("&amp;", "&")} description={autoExcerpt} />
 
             <article className="post">
-                <h1>{title.replace("&#58;", ":").replace("&amp;", "&")}</h1>
-                <span>{updated}</span>
-                <span> in </span>
-                <span>{category}</span>
+                <div className="title">{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
+                <div style={{marginBottom: "20px"}}>
+                    <span>{updated}</span>
+                    <span> in </span>
+                    <span>{category}</span>
+                </div>
 
                 {next != null ?
                     <div className="postnav">

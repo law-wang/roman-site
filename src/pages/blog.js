@@ -38,7 +38,7 @@ const BlogPage = () => {
         {data.allMarkdownRemark.category.slice(0).reverse().map((category, index) => (
 
           <div className="category" key={index}>
-            <h2>{category.fieldValue}</h2>
+            <div className="title">{category.fieldValue}</div>
 
             {category.edges.map(post => (
               <div key={post.node.id}>

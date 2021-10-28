@@ -1,7 +1,7 @@
 ---
 title: Presidential Hopefuls
 updated: 2019-11-25 00:00
-published: true
+published: false
 category: Project
 tag: ["Featured Project"]
 permalink: "/project/hopefuls"

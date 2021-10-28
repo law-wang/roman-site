@@ -1,7 +1,7 @@
 ---
 title: Grow Together
 updated: 2020-12-02 18:53
-published: true
+published: false
 category: Project
 tag: ["Featured Project"]
 permalink: "/project/adobe"

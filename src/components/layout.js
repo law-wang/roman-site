@@ -32,9 +32,9 @@ const Layout = ({ children }) => {
           <nav>
             <Link to="/three">info</Link>
           </nav>
-          <nav>
+          {/* <nav>
             <Link to="/portfolio">projects</Link>
-          </nav>
+          </nav> */}
           <nav>
             <Link to="/blog">writing</Link>
           </nav>

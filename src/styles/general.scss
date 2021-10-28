@@ -177,6 +177,7 @@ a.footnote-ref {
 }
 
 .category {
+    margin-bottom: 20px;
     div {
         display: flex;
         a {
@@ -186,6 +187,10 @@ a.footnote-ref {
             font-feature-settings: "tnum";  
         }
     }
+}
+
+.title {
+    font-weight: bold;
 }
 
 // ART STYLES ****************************************************
