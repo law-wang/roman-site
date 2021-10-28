@@ -27,12 +27,8 @@ const Layout = ({ children }) => {
         </div>
       </header>
 
-      <div className="background"></div>
-
       <div className="container">
-
         {children}
-
       </div>
       
     </main>

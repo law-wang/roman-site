@@ -113,9 +113,9 @@ const Text = () => {
           <a href="https://www.instagram.com/rencewang/" target="_blank" rel="noopener noreferrer">instagram&#x2197;&#xFE0E;</a>
           <a href="https://www.linkedin.com/in/lawrence-c-w/" target="_blank" rel="noopener noreferrer">linkedin&#x2197;&#xFE0E;</a>
           <a href="https://thoughts.rence.la/" target="_blank" rel="noopener noreferrer">thoughts&#x2197;&#xFE0E;</a>
-          <a href="https://inmydefense.glitch.me/" target="_blank" rel="noopener noreferrer">in my defense&#x2197;&#xFE0E;</a>
+          <a href="https://inmydefense.glitch.me/" target="_blank" rel="noopener noreferrer">inmydefense&#x2197;&#xFE0E;</a>
         </div>
-        <div className="bottom">
+        <div id="bottom">
           <Clock />
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>
         </div>
