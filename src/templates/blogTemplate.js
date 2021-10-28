@@ -16,8 +16,8 @@ const BlogTemplate = ({ data, pageContext }) => {
         <Layout>
             <SEO title={title.replace("&#58;", ":").replace("&amp;", "&")} description={autoExcerpt} />
 
-            <article className="post">
-                <div className="title">{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
+            <article className="post" style={{marginTop: "30px"}}>
+                <div style={{fontSize: "30px"}} className="title">{title.replace("&#58;", ":").replace("&amp;", "&")}</div>
                 <div style={{marginBottom: "20px"}}>
                     <span>{updated}</span>
                     <span> in </span>
@@ -39,14 +39,11 @@ const BlogTemplate = ({ data, pageContext }) => {
                     null
                 }
 
-                <div className="postnav">
-                    <div></div>
-                    <div><Link to="/blog">Back to All Posts</Link></div>
-                </div>
-
                 <div className="postcontent">
                     <div dangerouslySetInnerHTML={{ __html: html }} />
                 </div>
+
+                <div><Link to="/blog">Back to All Posts</Link></div>
 
             </article>
 

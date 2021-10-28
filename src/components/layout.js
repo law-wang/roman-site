@@ -2,31 +2,14 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
-import AboutBlock from "./about"
-
 import "../styles/general.scss"
 
 const Layout = ({ children }) => {
-
-  const showAbout = () => {
-    const aboutBlock = document.querySelector("#aboutblock")
-    if (aboutBlock.classList.contains('about-show')) {
-      aboutBlock.classList.remove('about-show')
-    } else {
-      aboutBlock.classList.add('about-show')
-    }
-  }
 
   return (
     <main>
       
       <header>
-        {/* <div>
-          <Link to="/"><b>Lawrence Wang</b></Link>
-          <button onClick={showAbout}>
-            About
-          </button>
-        </div> */}
 
         <div className="navigation">
           <nav>
@@ -52,7 +35,6 @@ const Layout = ({ children }) => {
 
       </div>
       
-      {/* <AboutBlock /> */}
     </main>
   )
 }

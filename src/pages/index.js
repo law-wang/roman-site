@@ -6,7 +6,6 @@ import { Canvas, extend, useThree, useFrame } from "@react-three/fiber"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "../styles/three.scss"
 
 extend({ OrbitControls })
 
@@ -101,8 +100,8 @@ const Text = () => {
 
   return (
     <>
-      <div id="intro">
-        Lawrence Wang studies Computer Science & Economics and Political Science at Yale and is intersted in the intersection of design and computing. He aspires to be someone who draws, codes, and writes.
+      <div>
+        <span id="intro" style={{whiteSpace:"pre-wrap", padding: "1px 0 1px 0"}} className="highlight">Lawrence Wang studies Computer Science & Economics and Political Science at Yale and is intersted in the intersection of design and computing. He aspires to be someone who draws, codes, and writes. </span>
       </div>
   
       <div>

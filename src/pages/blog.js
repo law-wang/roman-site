@@ -33,12 +33,12 @@ const BlogPage = () => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <section>
+      <section style={{marginTop: "30px"}}>
 
         {data.allMarkdownRemark.category.slice(0).reverse().map((category, index) => (
 
           <div className="category" key={index}>
-            <div className="title">{category.fieldValue}</div>
+            <div style={{fontSize: "30px"}} className="title">{category.fieldValue}</div>
 
             {category.edges.map(post => (
               <div key={post.node.id}>
