@@ -104,10 +104,6 @@ const Text = () => {
       <div>
         <span id="intro" style={{whiteSpace:"pre-wrap", padding: "1px 0 1px 0"}} className="highlight">Lawrence Wang studies Computer Science, Political Science, and Economics at Yale and is intersted in the intersection of design and computing. He aspires to be someone who draws, codes, and writes. </span>
       </div>
-  
-      <div>
-        
-      </div>
 
       <footer>
         <div className="links">
@@ -130,7 +126,7 @@ const Three = () => {
   const isBrowser = typeof window !== "undefined"
   let fov
   if (isBrowser) {
-    fov = window.innerWidth > 500 ? 55 : 75
+    fov = window.innerWidth > 500 ? 50 : 75
   }
 
   return (
