@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react"
+import { Helmet } from "react-helmet"
 
 import * as THREE from "three"
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls"
@@ -101,7 +102,7 @@ const Text = () => {
   return (
     <>
       <div>
-        <span id="intro" style={{whiteSpace:"pre-wrap", padding: "1px 0 1px 0"}} className="highlight">Lawrence Wang studies Computer Science & Economics and Political Science at Yale and is intersted in the intersection of design and computing. He aspires to be someone who draws, codes, and writes. </span>
+        <span id="intro" style={{whiteSpace:"pre-wrap", padding: "1px 0 1px 0"}} className="highlight">Lawrence Wang studies Computer Science, Political Science, and Economics at Yale and is intersted in the intersection of design and computing. He aspires to be someone who draws, codes, and writes. </span>
       </div>
   
       <div>
@@ -130,6 +131,9 @@ const Three = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <body style={{overflow: "hidden"}} />
+      </Helmet>
       <SEO title="Home" />
       
       <section id="text">
