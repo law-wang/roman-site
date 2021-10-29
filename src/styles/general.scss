@@ -1,20 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 $backgroundColor: #cdedee;
 $bodyColor: #e20413;
 $bodyFont: "Times New Roman", "SimSun", "STSong", serif;
+
+// Main Colors: Blue #1E1CD8 Red #E91C23 Yellow #EAA206 
+// Try Colors: Light Blue #cdedee Mint Blue #ade4ee Off White #e5d5cc Blue #4592af Light Purple #f4e6f0 Grassy Green #afa75f
 
 // GENERAL STYLES ****************************************************
 
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-appearance: none;
+    box-sizing: border-box; 
     &::before, &::after {
       box-sizing: border-box;
     }
-    -webkit-tap-highlight-color: transparent; 
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+
+    color: $bodyColor;
+    font-family: $bodyFont;
     font-size: 20px;
 }
 
@@ -30,7 +34,6 @@ $bodyFont: "Times New Roman", "SimSun", "STSong", serif;
 
 a {
     text-decoration: underline;
-    color: $bodyColor;
     &:active {
         background-color: transparent;
     }
@@ -49,10 +52,6 @@ h1, h2, h3, h4, h5, h6, p {
 // LAYOUT STYLES ****************************************************
 
 body {
-    color: $bodyColor;
-    background-color: $backgroundColor;
-    font-family: $bodyFont;
-    font-size: 20px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -60,19 +59,16 @@ body {
     overflow-y: auto;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    background-color: $backgroundColor;
 }
 
 header {
     z-index: 999;
     position: fixed;
-    width: auto;
+    width: fit-content;
     top: 0;
     right: 0;
     padding: 10px;
-    margin-bottom: 40px;
-    div:first-child button {
-        margin-left: 20px;
-    } 
     .navigation {
         display: flex;
         justify-content: flex-end;
@@ -95,9 +91,6 @@ header {
 }
 
 // INDEX STYLES ****************************************************
-
-// Main Colors: Blue #1E1CD8 Red #E91C23 Yellow #EAA206 
-// Try Colors: Light Blue #cdedee Mint Blue #ade4ee Off White #e5d5cc Blue #4592af Light Purple #f4e6f0 Grassy Green #afa75f
 
 #canvas {
     position: fixed;
@@ -158,7 +151,11 @@ blockquote {
     border-left: 2px solid black;
     padding: 0 10px
 }
+sup {
+    vertical-align: top;
+}
 a.footnote-ref {
+    font-size: smaller;
     margin-left: 0px;
     text-decoration: none !important; 
 }
@@ -272,4 +269,31 @@ a.footnote-ref {
             height: 250px;
         }
     }
+}
+
+// EXTRAS STYLES ****************************************************
+
+* {
+    animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s; 
+    -webkit-animation: fadein 0.5s; 
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.circle {
+
 }

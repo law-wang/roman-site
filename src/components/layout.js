@@ -10,7 +10,6 @@ const Layout = ({ children }) => {
     <main>
       
       <header>
-
         <div className="navigation">
           <nav>
             <Link to="/">info</Link>
@@ -29,6 +28,7 @@ const Layout = ({ children }) => {
 
       <div className="container">
         {children}
+        <div className="circle"></div>
       </div>
       
     </main>

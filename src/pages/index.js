@@ -141,31 +141,30 @@ const Three = () => {
       </section>
       
       {isBrowser && (
-          <section id="canvas">
-              <Canvas
-                camera={{ position: [0, 0, 50], fov: 75, near: 0.1, far: 1000 }}
-                onCreated={({ gl }) => {
-                    // gl.shadowMap.enabled = true
-                    // gl.shadowMap.type = THREE.PCFSoftShadowMap
-                }}
-              >
+        <section id="canvas">
+          <Canvas
+            camera={{ position: [0, 0, 50], fov: 55, near: 0.1, far: 1000 }}
+            onCreated={({ gl }) => {
+              gl.shadowMap.enabled = true
+              gl.shadowMap.type = THREE.PCFSoftShadowMap
+            }}
+          >
 
-                <ambientLight intensity={0.8} />
-                <spotLight position={[0, 200, 0]} intensity={1} penumbra={1} castShadow />
-                {/* <fog attach="fog" args={["black", 10, 25]} /> */}
-                <Controls />
+            <ambientLight intensity={0.8} />
+            <spotLight position={[0, 200, 0]} intensity={1} penumbra={1} castShadow />
+            <Controls />
 
-                <mesh rotation={[20, 10, 50]}>
-                    <sphereGeometry args={[15, 100, 100]}  />
-                    <meshStandardMaterial color="#E91C23" wireframe={true} />
-                </mesh>
+            <mesh rotation={[20, 10, 50]}>
+                <sphereGeometry args={[15, 100, 100]}  />
+                <meshStandardMaterial color="#E91C23" wireframe={true} />
+            </mesh>
 
-                {Array(300).fill().map((key) => (
-                  <Star key={key}/>
-                ))}
+            {Array(300).fill().map((key) => (
+              <Star key={key}/>
+            ))}
 
-              </Canvas>
-          </section>
+          </Canvas>
+        </section>
       )}
     </Layout>
   )
@@ -208,3 +207,6 @@ export default Three;
 
 //   return null
 // }
+
+
+/* <fog attach="fog" args={["black", 10, 25]} /> */
