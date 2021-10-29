@@ -7,14 +7,14 @@ const Cursor = () => {
     useEffect(() => {
         const addEventListeners = () => {
             document.addEventListener("mousemove", mMove)
-            document.addEventListener('mouseenter', mEnter)
-            document.addEventListener('mouseleave', mLeave)
+            document.addEventListener('mouseover', mEnter)
+            document.addEventListener('mouseout', mLeave)
         }
     
         const removeEventListeners = () => {
             document.removeEventListener("mousemove", mMove)
-            document.removeEventListener('mouseenter', mEnter)
-            document.removeEventListener('mouseleave', mLeave)
+            document.removeEventListener('mouseover', mEnter)
+            document.removeEventListener('mouseout', mLeave)
         }
     
         const mMove = (el) => {
