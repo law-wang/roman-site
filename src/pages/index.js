@@ -128,6 +128,10 @@ const Text = () => {
 // Main render function
 const Three = () => {
   const isBrowser = typeof window !== "undefined"
+  let fov
+  if (isBrowser) {
+    fov = window.innerWidth > 500 ? 55 : 75
+  }
 
   return (
     <Layout>
@@ -143,7 +147,7 @@ const Three = () => {
       {isBrowser && (
         <section id="canvas">
           <Canvas
-            camera={{ position: [0, 0, 50], fov: 55, near: 0.1, far: 1000 }}
+            camera={{ position: [0, 0, 50], fov: fov, near: 0.1, far: 1000 }}
             onCreated={({ gl }) => {
               gl.shadowMap.enabled = true
               gl.shadowMap.type = THREE.PCFSoftShadowMap
