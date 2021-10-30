@@ -94,7 +94,8 @@ const Text = () => {
     "I hope this summer breeze would last more than a season.",
     "It’s a train wreck, but I won’t crash it.",
     "Turn around and you’ll see what I see.",
-    "If it's all in my head tell me now."
+    "If it's all in my head tell me now.",
+    "It is no bad thing to celebrate a simple life."
   ]
   let randomIndex = Math.floor(Math.random() * greetingArray.length)
   let greetingText = greetingArray[randomIndex]
