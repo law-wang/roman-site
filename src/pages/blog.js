@@ -14,7 +14,7 @@ const BlogPage = () => {
             filter: { frontmatter: { type: {eq: "post"}, published: {eq: true} } }
             sort: { fields: [frontmatter___updated] order: DESC }
         ) {
-            category:group(field: frontmatter___category) {
+            year:group(field: frontmatter___year) {
                 fieldValue
                 edges {
                     node {
@@ -35,12 +35,12 @@ const BlogPage = () => {
       <SEO title="Blog" />
       <section style={{marginTop: "30px"}}>
 
-        {data.allMarkdownRemark.category.slice(0).reverse().map((category, index) => (
+        {data.allMarkdownRemark.year.slice(0).reverse().map((year, index) => (
 
           <div className="category" key={index}>
-            <div style={{fontSize: "30px"}} className="title">{category.fieldValue}</div>
+            <div style={{fontSize: "30px"}} className="title">{year.fieldValue}</div>
 
-            {category.edges.map(post => (
+            {year.edges.map(post => (
               <div key={post.node.id}>
                 <div>{post.node.frontmatter.updated}</div> <Link to={post.node.frontmatter.permalink}>{post.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>
               </div>

@@ -1,6 +1,7 @@
 ---
 title: Melodrama&#58; The Glamour and Trauma Became Us
-updated: 2016-06-05 23:37
+updated: 2018-06-05 23:37
+year: 2018
 published: true
 category: Music
 tag: [Lorde, Pop, sticky]

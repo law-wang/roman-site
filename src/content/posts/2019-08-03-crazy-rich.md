@@ -1,6 +1,7 @@
 ---
 title: Crazy Rich Asians&#58; Socioeconomic Mismatch and The Farewell
 updated: 2019-08-03 20:08
+year: 2019
 published: true
 category: Movie and TV
 tag: []

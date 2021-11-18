@@ -1,6 +1,7 @@
 ---
 title: Commencement Address&#58; Lessons I Learned
 updated: 2019-06-01 12:01
+year: 2019
 published: true
 category: Personal
 tag: [Featured, Reflection]

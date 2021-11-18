@@ -1,6 +1,7 @@
 ---
 title: The Prestige&#58; Twisted Obsessions
 updated: 2018-04-04 14:16
+year: 2018
 published: true
 category: Movie and TV
 tag: [Christopher Nolan, Thriller]
