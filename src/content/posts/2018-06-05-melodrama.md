@@ -29,17 +29,17 @@ The theme is then reinforced through Sober II (Melodrama) and Writer In The Dark
 > They'll talk about us, and discover  
 > How we kissed and killed each other.
 
-Yet we can't help but reminiscing the magic and love and tender touches in the car that characterized the summertimes, before the blizzard hit the town and we had to board up the windows and retreat into solitude. And in that contemplation, we arrive at the conclusion:
+Yet we can't help but reminisce the magic and love and tender touches in the car that characterized the summertimes, before the blizzard hit the town and we had to board up the windows and retreat into solitude. And in that contemplation, we arrive at the conclusion:
 > All of the dreams that get harder,  
 > All of the things that I offer you,  
 > All of the shit that we harbour,  
 > But you're not what you thought you were.
 
-So in the grand finale, we dump it all away in Perfect Places. In a sense, this last track summarizes the entire story, from the party to the fragility, from the love to no-more-love. In the graceless night, we are wild and young for the one last time. _Dancing. Proclaiming we are all-right. Yelling to the heavens, trying to prove the perfect place that doesn’t exist._ We try to get there, but we never will. We are doomed to fail, but we carry on. And isn’t precisely this kind of valor, of trying in spite of challenges that is so admirable about the transition from adolescence into adulthood?
+So in the grand finale, we dump it all away in Perfect Places. In a sense, this last track summarizes the entire story, from the party to the fragility, from the love to no-more-love. In the graceless night, we are wild and young for the one last time. _Dancing. Proclaiming we are all-right. Yelling to the heavens, trying to prove the perfect place that doesn’t exist._ We try to get there, but we never will. We might be doomed to fail, but we carry on. And isn’t precisely this kind of valor, of trying in spite of challenges that is so admirable about the transition from adolescence into adulthood?
 
 ## Melodrama and Us
 
-The album is titled melodrama, romance love affairs. Yet the album is not simply about breaking up, or even love. It seems closer to a diary to oneself, about how to manage the solitude, how to understand the ever-so complex notion of self— all of that, wrapped in strong sonic and lyrical cohesion. This is a part of why I was absolutely dumbfounded when _Melodrama_ was snubbed of its album of the year. The journey Lorde presents shows the audience a meditation on the loneliness of an ambitious pop drama queen. The intimate vocals, lyrics, productions here are all Grammy’s worthy— yet all of that paled in face of the 60th Annual Grammy Awards’ pursuit of “equality” and “representation.”
+The album is titled melodrama, romance love affairs. Yet the album is not simply about breaking up, or even love. It seems closer to a diary to oneself, about how to manage the solitude, how to understand the ever-so complex notion of self — all of that, wrapped in strong sonic and lyrical cohesion. The journey Lorde illustrates is one meditation on the loneliness of an ambitious pop drama queen. The intimate vocals, lyrics, production here are all Grammy’s worthy — it is a shamed it could not win.
 
 Above all, the fragility of breakups, the confusion of growing up, the depravity of carousing, the loneliness of sobriety, the fiery emotions of adulthood— _Melodrama_ contains all of these. And through editing life into one endless party, the good, the bad, the glamour, the trauma all invariably arrive at who we are.
 
