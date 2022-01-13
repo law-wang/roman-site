@@ -1,5 +1,5 @@
 ---
-title: Reputation&#58; A Career-Ending Flop?
+title: Reputation&#58; Career-Ending Flop?
 updated: 2018-09-20 12:46
 year: 2018
 published: true
