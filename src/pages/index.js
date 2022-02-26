@@ -103,7 +103,7 @@ const Text = () => {
   return (
     <>
       <div>
-        <span id="intro" style={{whiteSpace:"pre-wrap", padding: "1px 0 1px 0"}} className="highlight">Lawrence Wang studies Computer Science, Political Science, and Economics at Yale and is intersted in the intersction of design and computing. He aspires to be somone who draws, codes, and writes. </span>
+        <span id="intro" style={{whiteSpace:"pre-wrap", padding: "1px 0 1px 0"}} className="highlight">Lawrence Wang studies Computer Science, Political Science, and Economics at Yale and is interested in the intersection of design and computing. He aspires to be somone who draws, codes, and writes. </span>
       </div>
 
       <footer>
