@@ -100,19 +100,36 @@ const Text = () => {
   let randomIndex = Math.floor(Math.random() * greetingArray.length)
   let greetingText = greetingArray[randomIndex]
 
+  const major = () => {
+    alert("Maybe: Computer Science and Economics, and Political Science")
+  }
+  const school = () => {
+    alert("Maybe: Yale University")
+  }
+  const interest = () => {
+    alert("Maybe: The intersection between design and computing")
+  }
+  const aspiration = () => {
+    alert("Maybe: Someone who draws, writes, and codes")
+  }
+
   return (
     <>
       <div>
-        <span id="intro" style={{whiteSpace:"pre-wrap", padding: "1px 0 1px 0"}} className="highlight">Lawrence Wang studies Computer Science, Political Science, and Economics at Yale and is interested in the intersection of design and computing. He aspires to be somone who draws, codes, and writes. </span>
+        <span id="intro" className="highlight">
+          Lawrence Wang studies <span onClick={major}>nothing</span> at <span onClick={school}>nowhere</span>. He is interested in <span onClick={interest}>nothing</span> and aspires to become <span onClick={aspiration}>no one</span>.
+        </span>
+          
+        <div className="links">
+          <a href="https://www.instagram.com/rencewang/" target="_blank" rel="noopener noreferrer">instagram&#x2197;&#xFE0E;</a> 
+          <a href="https://www.linkedin.com/in/lawrence-c-w/" target="_blank" rel="noopener noreferrer">linkedin&#x2197;&#xFE0E;</a> 
+          <a href="https://thoughts.rence.la/" target="_blank" rel="noopener noreferrer">thoughts&#x2197;&#xFE0E;</a> 
+          <a href="https://inmydefense.glitch.me/" target="_blank" rel="noopener noreferrer">inmydefense&#x2197;&#xFE0E;</a>
+        </div>
+
       </div>
 
       <footer>
-        <div className="links">
-          <a href="https://www.instagram.com/rencewang/" target="_blank" rel="noopener noreferrer">instagram&#x2197;&#xFE0E;</a>
-          <a href="https://www.linkedin.com/in/lawrence-c-w/" target="_blank" rel="noopener noreferrer">linkedin&#x2197;&#xFE0E;</a>
-          <a href="https://thoughts.rence.la/" target="_blank" rel="noopener noreferrer">thoughts&#x2197;&#xFE0E;</a>
-          <a href="https://inmydefense.glitch.me/" target="_blank" rel="noopener noreferrer">inmydefense&#x2197;&#xFE0E;</a>
-        </div>
         <div id="bottom">
           <Clock />
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>

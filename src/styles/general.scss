@@ -1,4 +1,5 @@
 $backgroundColor: #cdedee;
+// $bodyColor: #000000;
 $bodyColor: #e20413;
 $bodyFont: "Times New Roman", "SimSun", "STSong", serif;
 
@@ -106,14 +107,26 @@ header {
 #text {
     z-index: 500;
     position: absolute;
-    max-width: 700px;
+    max-width: 500px;
     margin-right: 10px;
-    #intro {
-        font-size: 50px;
+    #intro, #intro * {
+        font-size: 60px;
+        padding: 1.5px 0;
         @media (max-width: 500px) {
-            font-size: 30px;
+            font-size: 40px;
         }
     }
+    #intro span {
+        cursor: pointer;
+        font-style: italic;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        a {
+            width: fit-content;
+        }
+    } 
     @media (max-width: 500px) {
         max-width: 300px;
         margin-top: 30px;
@@ -127,13 +140,6 @@ footer {
     bottom: 0;
     left: 0;
     padding: 10px;
-    .links {
-        display: flex;
-        flex-wrap: wrap;
-        a {
-            padding-right: 20px;
-        }
-    } 
     #bottom {
         display: flex;
         justify-content: space-between;
