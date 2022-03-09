@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
           {children}
         </div>
         <div className="container-extra">
-          {/* <image className="side-image" src="https://source.unsplash.com/random/?mountain,ocean,waves" /> */}
+          <div className="overlay"></div>
         </div>
       </div>
 
