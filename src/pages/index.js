@@ -25,7 +25,7 @@ const Controls = () => {
         // maxPolarAngle={Math.PI / 3}
         // minPolarAngle={Math.PI / 3}
         minDistance={10}
-        maxDistance={100}
+        maxDistance={150}
         rotateSpeed={0.3}
         autoRotateSpeed={1.5}
         enablePan={false}
@@ -108,7 +108,7 @@ const Text = () => {
     alert("Maybe: Yale University")
   }
   const interest = () => {
-    alert("Maybe: The intersection between design and computing")
+    alert("Maybe: The intersection between design and computing, song lyrics, Chinese poems, grand strategy games")
   }
   const aspiration = () => {
     alert("Maybe: Someone who draws, writes, and codes")
@@ -176,7 +176,7 @@ const Three = () => {
       {isBrowser && (
         <section id="canvas">
           <Canvas
-            camera={{ position: [0, 0, 50], fov: fov, near: 0.1, far: 1000 }}
+            camera={{ position: [0, 0, 90], fov: fov, near: 0.1, far: 1000 }}
             onCreated={({ gl }) => {
               gl.shadowMap.enabled = true
               gl.shadowMap.type = THREE.PCFSoftShadowMap

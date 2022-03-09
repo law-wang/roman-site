@@ -15,13 +15,13 @@ const Layout = ({ children }) => {
       <header>
         <div className="navigation">
           <nav>
-            <Link to="/" className="highlight">info</Link>
+            <Link to="/" className="layout-nav">info</Link>
           </nav>
           <nav>
-            <Link to="/blog" className="highlight">writing</Link>
+            <Link to="/blog" className="layout-nav">writing</Link>
           </nav>
           <nav>
-            <Link to="/art/traditional" className="highlight">art</Link>
+            <Link to="/art/traditional" className="layout-nav">art</Link>
           </nav>
         </div>
       </header>
