@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from "react"
 import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 
 import * as THREE from "three"
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls"
 import { Canvas, extend, useThree, useFrame } from "@react-three/fiber"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "../styles/general.scss"
 
 extend({ OrbitControls })
 
@@ -148,11 +149,25 @@ const Three = () => {
   }
 
   return (
-    <Layout>
+    <>
       <Helmet>
         <body style={{overflow: "hidden"}} />
       </Helmet>
       <SEO title="Home" />
+
+      <header>
+        <div className="navigation">
+          <nav>
+            <Link to="/">info</Link>
+          </nav>
+          <nav>
+            <Link to="/blog">writing</Link>
+          </nav>
+          <nav>
+            <Link to="/art/traditional">art</Link>
+          </nav>
+        </div>
+      </header>
       
       <section id="text">
         <Text />
@@ -184,7 +199,7 @@ const Three = () => {
           </Canvas>
         </section>
       )}
-    </Layout>
+    </>
   )
 }
 

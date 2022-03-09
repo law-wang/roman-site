@@ -10,6 +10,8 @@ const Layout = ({ children }) => {
   return (
     <main>
 
+      <div className="background"></div>
+
       <header>
         <div className="navigation">
           <nav>
@@ -25,7 +27,12 @@ const Layout = ({ children }) => {
       </header>
 
       <div className="container">
-        {children}
+        <div className="container-text">
+          {children}
+        </div>
+        <div className="container-extra">
+          {/* <image className="side-image" src="https://source.unsplash.com/random/?mountain,ocean,waves" /> */}
+        </div>
       </div>
 
       <Cursor />
