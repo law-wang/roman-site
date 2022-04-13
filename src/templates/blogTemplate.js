@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import parse, { domToReact } from 'html-react-parser'
 
 import SEO from '../components/seo'
 import Layout from '../components/threelayout'
@@ -12,8 +13,7 @@ const BlogTemplate = ({ data, pageContext }) => {
     } = data.markdownRemark
     const { next, previous } = pageContext
 
-    // let newhtml = html.replace(/<\/?p[^>]*>/g, "")
-    console.log(html)
+    let newhtml = html.replace(/<p[^>]*>/g, "<p><span class='highlight'>").replace(/<\/p>/g, "</span></p>").replace(/<h2[^>]*>/g, "<h2><span class='highlight'>").replace(/<\/h2>/g, "</span></h2>")
 
     return (
         <Layout>
@@ -30,20 +30,20 @@ const BlogTemplate = ({ data, pageContext }) => {
                 {next != null ?
                     <div className="postnav">
                         <div><span className="highlight">Previous:</span></div>
-                        <div className="highlight"><a href={next.frontmatter.permalink}>{next.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</a></div>
+                        <div><a href={next.frontmatter.permalink}><span className="highlight">{next.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</span></a></div>
                     </div> :
                     null
                 }
                 {previous != null ?
                     <div className="postnav">
                         <div><span className="highlight">Next:</span></div>
-                        <div className="highlight"><a href={previous.frontmatter.permalink}>{previous.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</a></div>
+                        <div><a href={previous.frontmatter.permalink}><span className="highlight">{previous.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</span></a></div>
                     </div> :
                     null
                 }
 
                 <div className="postcontent">
-                    <div dangerouslySetInnerHTML={{ __html: html }} />
+                    <div dangerouslySetInnerHTML={{ __html: newhtml }} />
                 </div>
 
                 <div><a href="/blog"><span className="highlight">Back to All Posts</span></a></div>
