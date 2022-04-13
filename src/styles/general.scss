@@ -141,6 +141,14 @@ header {
     background: url('../images/staticblue.png');
 }
 
+#content {
+    z-index: 500;
+    position: absolute;
+    max-width: 500px;
+    margin-right: 10px;
+    padding: 10px 0 50px 10px;  
+}
+
 .highlight {
     color: #e20413 !important;
     background: rgba(255, 193, 49, 1) !important;
@@ -159,11 +167,11 @@ header {
 }
 
 #text {
-    z-index: 500;
-    position: absolute;
-    max-width: 500px;
-    margin-right: 10px;
-    padding: 10px 0 50px 10px;
+    // z-index: 500;
+    // position: absolute;
+    // max-width: 500px;
+    // margin-right: 10px;
+    // padding: 10px 0 50px 10px;
     #intro, #intro * {
         font-size: 60px;
         padding: 1.5px 0;
@@ -340,40 +348,40 @@ a.footnote-ref {
 
 // EXTRAS STYLES ****************************************************
 
-* {
-    -moz-animation: fadein 0.5s; 
-    -webkit-animation: fadein 0.5s; 
-    animation: fadein 0.5s;
-}
+// * {
+//     -moz-animation: fadein 0.5s; 
+//     -webkit-animation: fadein 0.5s; 
+//     animation: fadein 0.5s;
+// }
 
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
+// @-moz-keyframes fadein {
+//     from { opacity: 0; }
+//     to   { opacity: 1; }
+// }
 
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
+// @-webkit-keyframes fadein {
+//     from { opacity: 0; }
+//     to   { opacity: 1; }
+// }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
+// @keyframes fadein {
+//     from { opacity: 0; }
+//     to   { opacity: 1; }
+// }
 
-.cursor {
-    z-index: -10;
-    height: 400px;
-    width: 400px;
-    border-radius: 100%;
-    background-color: rgba(255, 193, 49, 1);
-    position: fixed;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    @media (hover: none) {
-        display: none;
-    }
-}
+// .cursor {
+//     z-index: -10;
+//     height: 400px;
+//     width: 400px;
+//     border-radius: 100%;
+//     background-color: rgba(255, 193, 49, 1);
+//     position: fixed;
+//     transform: translate(-50%, -50%);
+//     pointer-events: none;
+//     @media (hover: none) {
+//         display: none;
+//     }
+// }
 
 .hidden {
     opacity: 0;
