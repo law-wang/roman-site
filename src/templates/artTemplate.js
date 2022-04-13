@@ -1,8 +1,8 @@
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
+import Layout from '../components/threelayout'
 import SEO from "../components/seo"
 
 const ArtTemplate = props => {
@@ -72,10 +72,12 @@ const ArtTemplate = props => {
             <SEO title={pageTitle} />
 
             <section className="gallery">
-                <div><Link to="/art/design">Design</Link></div>
-                <div><Link to="/art/traditional">Traditional</Link></div>
-                <div><Link to="/art/digital">Digital</Link></div>
-
+                <div className="gallery-nav">
+                    <div><a href="/art/design"><span className="highlight">Design</span></a></div>
+                    <div><a href="/art/traditional"><span className="highlight">Traditional</span></a></div>
+                    <div><a href="/art/digital"><span className="highlight">Digital</span></a></div>
+                </div>
+                
                 <div className="gallery-container">
                     {images.map((data, index) => (
 

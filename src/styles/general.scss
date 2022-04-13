@@ -85,52 +85,6 @@ header {
     }
 }
 
-.container {
-    display: grid;
-    column-gap: 5px;
-    grid-template-columns: 700px auto;
-    grid-template-rows: auto;
-    grid-template-areas: 'text extra';
-    @media (max-width: 700px) {
-        grid-template-columns: auto;
-        grid-template-areas: 'text';
-    }
-}
-
-.container-text {
-    grid-area: 'text';
-    max-width: 700px;
-    min-height: 100vh;
-    margin: 0 10px;
-    padding: 10px 0 50px 0;
-}
-
-.container-extra {
-    grid-area: 'extra';
-    border-left: 2px solid $bodyColor;
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    z-index: -20;
-    background-color: #f1defa;
-    background-image: url('https://source.unsplash.com/random/?waves'), url('../images/staticblue.png');
-    background-size: cover, 195px 142px;
-    background-blend-mode: multiply;
-    .overlay {
-        background-image: url('../images/checker.png');
-        background-size: 16px 16px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
-    @media (max-width: 700px) {
-        opacity: 0;
-        display: none;
-    }
-}
-
 .background {
     z-index: -500;
     position: fixed;
@@ -160,7 +114,7 @@ header {
 // INDEX STYLES ****************************************************
 
 #canvas {
-    z-index: 1;
+    z-index: -500;
     position: fixed;
     top: 0;
     left: 0;
@@ -181,14 +135,6 @@ header {
         cursor: pointer;
         font-style: italic;
     }
-    .links {
-        display: flex;
-        flex-direction: column;
-        a {
-            width: fit-content;
-            line-height: 1.5;
-        }
-    } 
     @media (max-width: 500px) {
         max-width: 300px;
     }
@@ -280,7 +226,13 @@ a.footnote-ref {
 
 // ART STYLES ****************************************************
 
+.gallery-nav {
+    z-index: 500;
+    position: fixed;
+    top: 50px;
+}
 .gallery-image {
+    z-index: 999;
     margin: 20px 0;
 }
 
