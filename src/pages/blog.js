@@ -1,10 +1,8 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/threelayout"
 import SEO from "../components/seo"
-
-// import "../styles/bloggrid.scss"
 
 const BlogPage = () => {
 
@@ -33,21 +31,19 @@ const BlogPage = () => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <section style={{marginTop: "30px"}}>
+      <section>
 
         {data.allMarkdownRemark.year.slice(0).reverse().map((year, index) => (
 
-          <div className="category highlight" key={index}>
-            <div style={{fontSize: "30px"}} className="title">{year.fieldValue}</div>
+          <div className="category" key={index}>
+            <div className="title"><span className="highlight"  style={{fontSize: "30px", marginBottom: "10px"}}>{year.fieldValue}</span></div>
 
             {year.edges.map(post => (
-              <div className="highlight" key={post.node.id}>
-                <div>{post.node.frontmatter.updated.substring(5, 11)}</div> <Link to={post.node.frontmatter.permalink}>{post.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</Link>
+              <div key={post.node.id}>
+                <a href={post.node.frontmatter.permalink}><span className="highlight">{post.node.frontmatter.title.replace("&#58;", ":").replace("&amp;", "&")}</span></a>
               </div>
             ))}
-
           </div>
-
         ))}
 
       </section>

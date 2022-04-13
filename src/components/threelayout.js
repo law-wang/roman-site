@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react"
 import { Helmet } from "react-helmet"
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 import * as THREE from "three"
@@ -119,13 +118,13 @@ const Layout = ({ children }) => {
             <header>
                 <div className="navigation">
                     <nav>
-                    <Link to="/">info</Link>
+                        <a href="/">info</a>
                     </nav>
                     <nav>
-                    <Link to="/blog">writing</Link>
+                        <a href="/blog">writing</a>
                     </nav>
                     <nav>
-                    <Link to="/art/traditional">art</Link>
+                        <a href="/art/traditional">art</a>
                     </nav>
                 </div>
             </header>
