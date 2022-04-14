@@ -72,7 +72,7 @@ const Layout = ({ children }) => {
     const isBrowser = typeof window !== "undefined"
     let fov
     if (isBrowser) {
-      fov = window.innerWidth > 500 ? 50 : 75
+      fov = window.innerWidth > 500 ? 40 : 75
     }
 
     const greetingArray = [

@@ -63,6 +63,16 @@ body {
     background: url('../images/staticblue.png');
 }
 
+#canvas {
+    z-index: -500;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/staticblue.png');
+}
+
 header {
     z-index: 999;
     position: fixed;
@@ -85,16 +95,6 @@ header {
     }
 }
 
-.background {
-    z-index: -500;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: url('../images/staticblue.png');
-}
-
 #content {
     z-index: 500;
     position: fixed;
@@ -102,8 +102,9 @@ header {
     left: 10px;
     margin-right: 10px; 
     max-width: 500px;
-    max-height: calc(80% - 50px);
-    overflow: scroll;
+    max-height: calc(100% - 100px);
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .highlight {
@@ -112,16 +113,6 @@ header {
 }
 
 // INDEX STYLES ****************************************************
-
-#canvas {
-    z-index: -500;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: url('../images/staticblue.png');
-}
 
 #text {
     #intro, #intro * {
@@ -134,9 +125,6 @@ header {
     #intro span {
         cursor: pointer;
         font-style: italic;
-    }
-    @media (max-width: 500px) {
-        max-width: 300px;
     }
 }
 
@@ -234,6 +222,9 @@ a.footnote-ref {
 .gallery-image {
     z-index: 999;
     margin: 20px 0;
+    &:first-of-type {
+        margin-top: 0;
+    }
 }
 
 // PROJECT STYLES ****************************************************
@@ -315,4 +306,8 @@ a.footnote-ref {
 
 .hidden {
     opacity: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
