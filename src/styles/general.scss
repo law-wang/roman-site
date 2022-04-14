@@ -102,7 +102,7 @@ header {
     left: 10px;
     margin-right: 10px; 
     max-width: 500px;
-    max-height: 85vh;
+    max-height: calc(80% - 50px);
     overflow: scroll;
 }
 
