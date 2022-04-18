@@ -11,7 +11,7 @@ const Index = () => {
       <SEO title="Home" />
       <div id="text">
         <span id="intro" className="highlight">
-          Lawrence Wang <br/> is finding who <br/> he is supposed to be. He studies <span onClick={e => alert("Maybe: Computer Science and Economics, and Political Science")}>this</span>, <br/> likes <span onClick={e => alert("Maybe: The intersection between design and computing, song lyrics, Chinese poems, grand strategy games")}>these</span>, <br/> and wants to <br/> become <br/> <span onClick={e => alert("Maybe: Someone who draws, writes, and codes")}>that</span>.
+          Lawrence Wang <br/> is finding who <br/> he is supposed to be. He studies <span onClick={e => alert("Maybe: Computer Science and Economics, and Political Science")}>this</span>, <br/> likes <span onClick={e => alert("Maybe: the intersection between design and computing, song lyrics, room sprays, Chinese poems, grand strategy games, interior design, Cities Skylines, floor plans")}>these</span>, <br/> and wants to <br/> become <br/> <span onClick={e => alert("Maybe: Someone who draws, writes, and codes")}>that</span>.
         </span>
           
         {/* <div className="links">
