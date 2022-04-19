@@ -36,6 +36,7 @@ $bodyFont: "Times New Roman", "SimSun", "STSong", serif;
 a {
     text-decoration: underline;
     text-decoration-thickness: 1px;
+    text-underline-offset: 1px;
     &:active {
         background-color: transparent;
     }
