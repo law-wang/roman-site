@@ -95,7 +95,7 @@ const Layout = ({ children }) => {
         "But now, more will go with age.",
         "You are what you love, not who loves you.",
         "In your darkest hours you will stumble on a secret power.",
-        "Some days I run for cover some I only run my mouth, don't know what that's about.",
+        "Some days I run for cover some I only run my mouth.",
         "Try to shine. Stay wild.",
         "When it rains it pours, so stay thirsty like before.",
         "It’s a train wreck, but I won’t crash it.",
@@ -111,7 +111,6 @@ const Layout = ({ children }) => {
         "If everything is not fine in the end, then it's not the ned.",
         "You miss all the shots you don't take",
         "He who has a why can bear almost any how.",
-        "You will be bored of him in two years, and we will be interesting forever.",
         "Walking through a lot of rainstorms makes one clean.",
         "The world will break your heart ten ways to Sunday. That's guaranteed.",
         "Most things don't exist."
