@@ -104,17 +104,19 @@ const Layout = ({ children }) => {
         "If it's all in my head tell me now.",
         "It is no bad thing to celebrate a simple life.",
         "How long will it be cute?",
-        "Now it strengthens me to know the truth at last.",
+        "It strengthens me to know the truth at last.",
         "Criticize a little something because somebody has to.",
         "Am I extreme?",
-        "Now it frightens me, the thought against my chest.",
+        "But it frightens me, the thought against my chest.",
         "This love will come back to me.",
-        "If everything is not fine in the end, then it's not the ned.",
+        "If everything is not fine in the end, then it's not the end.",
         "You miss all the shots you don't take.",
         "He who has a why can bear almost any how.",
         "Walking through a lot of rainstorms makes one clean.",
         "The world will break your heart ten ways to Sunday. That's guaranteed.",
-        "Most things don't exist."
+        "Most things don't exist.",
+        "There in the rear-view mirror disappearing now.",
+        "Now I'm dodging plot holes in my sunburnt Silverado."
     ]
     let randomIndex = Math.floor(Math.random() * greetingArray.length)
     let greetingText = greetingArray[randomIndex]
