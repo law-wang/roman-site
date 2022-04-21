@@ -85,7 +85,7 @@ const Layout = ({ children }) => {
         "To be honest, what I liked, were the things I didn’t know.",
         "Pray for everything we lost, buy back the secrets.",
         "Would you believe me now, if I say I got caught up in a wave?",
-        "Almost gave it away.",
+        "So I let it happen again, almost gave it away.",
         "I'm still not sure if fear's a rival or close relative to truth.",
         "There's no going back against this California feeling.",
         "You win some and lose some, 'long as the outcome's income.",
@@ -116,7 +116,8 @@ const Layout = ({ children }) => {
         "The world will break your heart ten ways to Sunday. That's guaranteed.",
         "Most things don't exist.",
         "There in the rear-view mirror disappearing now.",
-        "Now I'm dodging plot holes in my sunburnt Silverado."
+        "Now I'm dodging plot holes in my sunburnt Silverado.",
+        "Are you happy?"
     ]
     let randomIndex = Math.floor(Math.random() * greetingArray.length)
     let greetingText = greetingArray[randomIndex]
