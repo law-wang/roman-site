@@ -117,7 +117,9 @@ const Layout = ({ children }) => {
         "Most things don't exist.",
         "There in the rear-view mirror disappearing now.",
         "Now I'm dodging plot holes in my sunburnt Silverado.",
-        "Are you happy?"
+        "Are you happy?",
+        "You should at least have something for that.",
+        "But that's impossible."
     ]
     let randomIndex = Math.floor(Math.random() * greetingArray.length)
     let greetingText = greetingArray[randomIndex]
