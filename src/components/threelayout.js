@@ -139,6 +139,9 @@ const Layout = ({ children }) => {
                         <a href="/blog">writing</a>
                     </nav>
                     <nav>
+                        <a href="/project">project</a>
+                    </nav>
+                    <nav>
                         <a href="/art/traditional">art</a>
                     </nav>
                 </div>

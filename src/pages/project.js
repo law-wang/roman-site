@@ -43,7 +43,11 @@ const ProjectPage = () => {
                 </div>
 
                 <div className="project-item">
-                    <a href="https://inmydefense.glitch.me/"><span className="title highlight">inmydefense</span></a>
+                    <a href="https://inmydefense.glitch.me/"><span className="title highlight">In My Defense</span></a>
+                </div>
+
+                <div className="project-item">
+                    <a href="https://chiaski.github.io/politic-hopefuls/"><span className="title highlight">The Politic Hopefuls</span></a>
                 </div>
             </section>
         </Layout>

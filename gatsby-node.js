@@ -4,7 +4,6 @@ const fs = require("fs")
 const yaml = require("js-yaml")
 
 const blogTemplate = path.resolve(`./src/templates/blogTemplate.js`)
-const projectTemplate = path.resolve(`./src/templates/projectTemplate.js`)
 const artTemplate = path.resolve(`./src/templates/artTemplate.js`)
 
 exports.onCreateWebpackConfig = ({ actions }) => {
@@ -25,19 +24,6 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
 
     const result = await graphql(`
       query {
-        projects: allMarkdownRemark (
-          filter: { frontmatter: { type: {eq: "project"}, published: {eq: true} } }
-          sort: { fields: [frontmatter___updated] order: DESC }
-        ) {
-          edges {
-            node {
-              frontmatter {
-                permalink
-                title
-              }
-            }
-          }
-        }
         posts: allMarkdownRemark (
           filter: { frontmatter: { type: {eq: "post"}, published: {eq: true} } }
           sort: { fields: [frontmatter___updated] order: DESC }
@@ -62,18 +48,6 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
         context: {
           next: index === (posts.length - 1) ? null : posts[index + 1].node,
           previous: index === 0 ? null : posts[index - 1].node,
-        },
-      })
-    })
-
-    const projects = result.data.projects.edges
-    projects.forEach(({node}, index) => {
-      createPage({
-        path: node.frontmatter.permalink,
-        component: projectTemplate,
-        context: {
-          next: index === (projects.length - 1) ? null : projects[index + 1].node,
-          previous: index === 0 ? null : projects[index - 1].node,
         },
       })
     })
