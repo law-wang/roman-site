@@ -36,7 +36,7 @@ const BlogPage = () => {
         {data.allMarkdownRemark.year.slice(0).reverse().map((year, index) => (
 
           <div className="category" key={index}>
-            <div className="title"><span className="highlight"  style={{fontSize: "30px", marginBottom: "10px"}}>{year.fieldValue}</span></div>
+            <div><span className="title highlight">{year.fieldValue}</span></div>
 
             {year.edges.map(post => (
               <div key={post.node.id}>
