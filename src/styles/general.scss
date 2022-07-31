@@ -1,289 +1,313 @@
 $backgroundColor: #cdedee;
 $bodyColor: #e20413;
-$bodyFont: "Times New Roman", "SimSun", "STSong", serif;
+$bodyFont: 'Times New Roman', 'SimSun', 'STSong', serif;
 
-// Main Colors: Blue #1E1CD8 Red #E91C23 Yellow #EAA206 
+// Main Colors: Blue #1E1CD8 Red #E91C23 Yellow #EAA206
 // Try Colors: Light Blue #cdedee Mint Blue #ade4ee Off White #e5d5cc Blue #4592af Light Purple #f4e6f0 Grassy Green #afa75f
 // More Try Colors: BV Green #009D48 BV Orange #F25B1D
 
 // GENERAL STYLES ****************************************************
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
-    &::before, &::after {
-      box-sizing: border-box;
-    }
-    -webkit-appearance: none;
-    -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
 
-    color: $bodyColor;
-    font-family: $bodyFont;
-    font-size: 20px;
+  color: $bodyColor;
+  font-family: $bodyFont;
+  font-size: 20px;
 }
 
-::-moz-selection { 
-    color: #000;
-    background: #FFC131;
+::-moz-selection {
+  color: #000;
+  background: #ffc131;
 }
-  
+
 ::selection {
-    color: #000;
-    background: #FFC131;
+  color: #000;
+  background: #ffc131;
 }
 
 a {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 1px;
-    
-    &:active {
-        background-color: transparent;
-    }
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 1px;
+
+  &:active {
+    background-color: transparent;
+  }
 }
 
 @media (hover: hover) {
-    a:hover {
-        text-decoration: none;
-    }
+  a:hover {
+    text-decoration: none;
+  }
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
 }
 
 // LAYOUT STYLES ****************************************************
 
 body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    background: url('../images/staticblue.png');
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background: url('../images/staticblue.png');
 }
 
 #canvas {
-    z-index: -500;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: url('../images/staticblue.png');
-    background-color: #cdedee;
+  z-index: -500;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('../images/staticblue.png');
+  background-color: #cdedee;
 }
 
 header {
-    z-index: 999;
-    position: fixed;
-    width: fit-content;
-    top: 0;
-    right: 0;
-    padding: 10px;
+  z-index: 999;
+  position: fixed;
+  width: fit-content;
+  top: 0;
+  right: 0;
+  padding: 10px;
 
-    .navigation {
-        display: flex;
-        justify-content: flex-end;
-        nav {
-            padding-left: 20px;
-            .layout-nav {
-                background: rgba(255, 193, 49, 1) !important;
-                @media (max-width: 700px) {
-                    background: transparent !important;
-                }
-            }
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    nav {
+      padding-left: 20px;
+      .layout-nav {
+        background: rgba(255, 193, 49, 1) !important;
+        @media (max-width: 700px) {
+          background: transparent !important;
         }
+      }
     }
+  }
 }
 
 #content {
-    z-index: 500;
-    position: fixed;
-    top: 50px;
-    left: 10px;
-    margin-right: 10px; 
-    max-width: 500px;
-    max-height: calc(100% - 120px);
-    overflow-x: hidden;
-    overflow-y: scroll;
+  z-index: 500;
+  position: fixed;
+  top: 50px;
+  left: 10px;
+  margin-right: 10px;
+  max-width: 500px;
+  max-height: calc(100% - 120px);
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .highlight {
-    color: #e20413 !important;
-    background: rgba(255, 193, 49, 1) !important;
+  color: #e20413 !important;
+  background: rgba(255, 193, 49, 1) !important;
 }
 
 // INDEX STYLES ****************************************************
 
 #text {
-    #intro, #intro * {
-        font-size: 60px;
-        padding: 1.5px 0;
-        @media (max-width: 500px) {
-            font-size: 40px;
-        }
+  #intro,
+  #intro * {
+    font-size: 60px;
+    padding: 1.5px 0;
+    @media (max-width: 500px) {
+      font-size: 40px;
     }
-    #intro span {
-        cursor: pointer;
-        font-style: italic;
-    }
-    a {
-        display: block;
-        margin-top: 5px;
-        width: fit-content;
-    }
+  }
+  #intro span {
+    cursor: pointer;
+    font-style: italic;
+  }
+  a {
+    display: block;
+    margin-top: 5px;
+    width: fit-content;
+  }
 }
 
 footer {
-    z-index: 999;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
 
-    #bottom {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        #greeting {
-            margin-left: 15px;
-            text-align: right;
-        }
-        @media (max-width: 500px) {
-            margin-top: 20px;
-        }
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    #greeting {
+      margin-left: 15px;
+      text-align: right;
     }
+    @media (max-width: 500px) {
+      margin-top: 20px;
+    }
+  }
 }
 
 // MARKDOWN STYLES ****************************************************
 
 blockquote {
-    border-left: 2px solid $bodyColor;
-    padding: 0 10px
+  border-left: 2px solid $bodyColor;
+  padding: 0 10px;
 }
 
 sup {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 a.footnote-ref {
-    font-size: smaller;
-    margin-left: 0px;
-    text-decoration: none !important; 
+  font-size: smaller;
+  margin-left: 0px;
+  text-decoration: none !important;
 }
 
 .footnotes {
-    margin-top: 50px;
-    hr {
-        border: none;
-    }
-    ol {
-        padding-left: 20px;
-    }
-    ol li p {
-        margin-bottom: 0;
-    }
+  margin-top: 50px;
+  hr {
+    border: none;
+  }
+  ol {
+    padding-left: 20px;
+  }
+  ol li p {
+    margin-bottom: 0;
+  }
 }
 
 // BLOG STYLES ****************************************************
 
 .postnav {
-    width: 100%;
-    display: flex;
-    div:first-child {
-        flex-basis: 100px;
-        flex-grow: 0;
-        flex-shrink: 0;
-    }
-    div:last-child {
-        width: auto;
-    }
-    &:first-of-type {
-        margin-top: 20px;
-    }
+  width: 100%;
+  display: flex;
+  div:first-child {
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  div:last-child {
+    width: auto;
+  }
+  &:first-of-type {
+    margin-top: 20px;
+  }
 }
 
 .category {
-    margin-bottom: 20px;
-    line-height: 1.3;
-    > * {
-        width: fit-content;
-    }
+  margin-bottom: 20px;
+  line-height: 1.3;
+  > * {
+    width: fit-content;
+  }
 }
 
 .title {
-    font-weight: bold;
-    font-size: 30px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .postcontent {
-    margin-bottom: 20px;
-    line-height: 1.4;
+  margin-bottom: 20px;
+  line-height: 1.4;
 }
 
 // ART STYLES ****************************************************
 
 .gallery-nav {
-    z-index: 500;
-    position: fixed;
-    top: 50px;
+  z-index: 500;
+  position: fixed;
+  top: 50px;
 }
 
 .gallery-image {
-    z-index: 999;
-    margin: 20px 0;
-    &:first-of-type {
-        margin-top: 0;
-    }
+  z-index: 999;
+  margin: 20px 0;
+  &:first-of-type {
+    margin-top: 0;
+  }
 }
 
 // PROJECT STYLES ****************************************************
 
 #project {
-    .project-item {
-        div {
-            margin: 5px 0 0 0;
-        }
-        margin: 5px 0 20px 0;
+  .project-item {
+    div {
+      margin: 5px 0 0 0;
     }
+    .project-year {
+      font-style: italic;
+      font-weight: 700;
+    }
+    margin: 5px 0 20px 0;
+  }
 }
 
 // EXTRAS STYLES ****************************************************
 
 * {
-    -moz-animation: fadein 0.5s; 
-    -webkit-animation: fadein 0.5s; 
-    animation: fadein 0.5s;
+  -moz-animation: fadein 0.5s;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
 }
 
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .hidden {
-    opacity: 0;
+  opacity: 0;
 }
 
 .fit-content {
-    width: fit-content;
+  width: fit-content;
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
