@@ -53,7 +53,7 @@ const ProjectPage = () => {
         </div>
 
         <div className="project-item">
-          <a href="https://idioms.glitch.me/">
+          <a href="https://idioms.rence.la/">
             <span className="title highlight">Listing Idioms</span>
           </a>
           &nbsp;&nbsp;
