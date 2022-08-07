@@ -1,97 +1,97 @@
 module.exports = {
   siteMetadata: {
-    title: "Lawrence Wang",
-    description: "Personal site for Lawrence Wang, currently a student at Yale University, intereted in art, economics, and computer science, aspiring to become a designer and developer for the world wide web.",
-    author: "Lawrence Wang",
+    title: 'Lawrence Wang',
+    description:
+      'Personal site for Lawrence Wang, currently a student at Yale University, intereted in art, economics, and computer science, aspiring to become a designer and developer for the world wide web.',
+    author: 'Lawrence Wang',
   },
   plugins: [
-    "gatsby-plugin-netlify",
-    "gatsby-plugin-sass",
-    "gatsby-plugin-postcss",
+    'gatsby-plugin-netlify',
+    'gatsby-plugin-sass',
+    'gatsby-plugin-postcss',
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "UA-156829821-2",
+        trackingId: 'UA-156829821-2',
       },
     },
-    "gatsby-plugin-react-helmet",
+    'gatsby-plugin-react-helmet',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: "src/images/favicon.ico",
+        icon: 'src/images/favicon.ico',
       },
     },
-    "gatsby-plugin-mdx",
+    'gatsby-plugin-mdx',
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: {
           formats: [`auto`, `webp`],
           placeholder: `blurred`,
-          layout: `constrained`,
           quality: 50,
           breakpoints: [750, 1080, 1366, 1920],
           backgroundColor: `transparent`,
         },
       },
     },
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-image",
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-image',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: 'pages',
+        path: './src/pages/',
       },
-      __key: "pages",
+      __key: 'pages',
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "posts",
-        path: "./src/content/posts/",
+        name: 'posts',
+        path: './src/content/posts/',
       },
-      __key: "posts",
+      __key: 'posts',
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "traditional",
+        name: 'traditional',
         path: `${__dirname}/static/artimages/traditional/`,
       },
-      __key: "traditional",
+      __key: 'traditional',
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "digital",
+        name: 'digital',
         path: `${__dirname}/static/artimages/digital/`,
       },
-      __key: "digital",
+      __key: 'digital',
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "design",
+        name: 'design',
         path: `${__dirname}/static/artimages/design/`,
       },
-      __key: "design",
+      __key: 'design',
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "art",
-        path: "./static/artimages/",
+        name: 'art',
+        path: './static/artimages/',
       },
-      __key: "art",
+      __key: 'art',
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "static",
-        path: "./static/",
+        name: 'static',
+        path: './static/',
       },
-      __key: "static",
+      __key: 'static',
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -109,7 +109,7 @@ module.exports = {
               maxWidth: 1600,
             },
           },
-          'gatsby-remark-static-images'
+          'gatsby-remark-static-images',
         ],
       },
     },

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import Layout from '../components/threelayout';
 import '../styles/general.scss';
 
 const ProjectPage = () => {
   return (
     <Layout>
-      <SEO title="Projects" />
+      <Seo title="Projects" />
 
       <section id="project">
         <div className="project-item">
