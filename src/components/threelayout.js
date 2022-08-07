@@ -126,6 +126,12 @@ const Layout = ({ children }) => {
     greetingArray[Math.floor(Math.random() * greetingArray.length)]
   );
 
+  const [stars] = useState(
+    Array(300)
+      .fill()
+      .map((key) => <Star key={key} />)
+  );
+
   return (
     <main>
       <Helmet>
@@ -181,11 +187,7 @@ const Layout = ({ children }) => {
               <meshStandardMaterial color="#E91C23" wireframe={true} />
             </mesh>
 
-            {Array(300)
-              .fill()
-              .map((key) => (
-                <Star key={key} />
-              ))}
+            {stars}
           </Canvas>
         </section>
       )}
