@@ -1,12 +1,11 @@
 import React from 'react';
 
 import Seo from '../components/seo';
-import Layout from '../components/threelayout';
 import '../styles/general.scss';
 
 const ProjectPage = () => {
   return (
-    <Layout>
+    <>
       <Seo title="Projects" />
 
       <section id="project">
@@ -116,7 +115,7 @@ const ProjectPage = () => {
           <span className="highlight project-year">2019</span>
         </div>
       </section>
-    </Layout>
+    </>
   );
 };
 

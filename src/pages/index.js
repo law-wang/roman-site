@@ -1,12 +1,11 @@
 import React from 'react';
 
 import Seo from '../components/seo';
-import Layout from '../components/threelayout';
 import '../styles/general.scss';
 
 const Index = () => {
   return (
-    <Layout>
+    <>
       <Seo title="Home" />
       <div id="text">
         <span id="intro" className="highlight">
@@ -63,7 +62,7 @@ const Index = () => {
           linkedin&#x2197;&#xFE0E;
         </a>
       </div>
-    </Layout>
+    </>
   );
 };
 

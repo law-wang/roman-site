@@ -2,7 +2,6 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-import Layout from '../components/threelayout';
 import Seo from '../components/seo';
 
 const ArtTemplate = (props) => {
@@ -66,7 +65,7 @@ const ArtTemplate = (props) => {
   }
 
   return (
-    <Layout>
+    <>
       <Seo title={pageTitle} />
 
       <section className="gallery">
@@ -96,7 +95,7 @@ const ArtTemplate = (props) => {
           ))}
         </div>
       </section>
-    </Layout>
+    </>
   );
 };
 

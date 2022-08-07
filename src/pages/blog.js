@@ -1,7 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import Layout from '../components/threelayout';
 import Seo from '../components/seo';
 
 const BlogPage = () => {
@@ -31,7 +30,7 @@ const BlogPage = () => {
   `);
 
   return (
-    <Layout>
+    <>
       <Seo title="Blog" />
       <section>
         {data.allMarkdownRemark.year
@@ -57,7 +56,7 @@ const BlogPage = () => {
             </div>
           ))}
       </section>
-    </Layout>
+    </>
   );
 };
 

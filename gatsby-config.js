@@ -10,6 +10,12 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-postcss',
     {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/components/threelayout.js`),
+      },
+    },
+    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-156829821-2',

@@ -2,7 +2,6 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import Seo from '../components/seo';
-import Layout from '../components/threelayout';
 
 const BlogTemplate = ({ data, pageContext }) => {
   const {
@@ -19,7 +18,7 @@ const BlogTemplate = ({ data, pageContext }) => {
     .replace(/<\/h2>/g, '</span></h2>');
 
   return (
-    <Layout>
+    <>
       <Seo
         title={title.replace('&#58;', ':').replace('&amp;', '&')}
         description={autoExcerpt}
@@ -80,7 +79,7 @@ const BlogTemplate = ({ data, pageContext }) => {
           </a>
         </div>
       </article>
-    </Layout>
+    </>
   );
 };
 
