@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 
 import Seo from '../components/seo';
 
@@ -42,13 +42,13 @@ const BlogTemplate = ({ data, pageContext }) => {
               <span className="highlight">Previous:</span>
             </div>
             <div>
-              <a href={next.frontmatter.permalink}>
+              <Link to={next.frontmatter.permalink}>
                 <span className="highlight">
                   {next.frontmatter.title
                     .replace('&#58;', ':')
                     .replace('&amp;', '&')}
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         ) : null}
@@ -58,13 +58,13 @@ const BlogTemplate = ({ data, pageContext }) => {
               <span className="highlight">Next:</span>
             </div>
             <div>
-              <a href={previous.frontmatter.permalink}>
+              <Link to={previous.frontmatter.permalink}>
                 <span className="highlight">
                   {previous.frontmatter.title
                     .replace('&#58;', ':')
                     .replace('&amp;', '&')}
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         ) : null}
@@ -74,9 +74,9 @@ const BlogTemplate = ({ data, pageContext }) => {
         </div>
 
         <div>
-          <a href="/blog">
+          <Link to="/blog">
             <span className="highlight">Back to All Posts</span>
-          </a>
+          </Link>
         </div>
       </article>
     </>

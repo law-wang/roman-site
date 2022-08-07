@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 import Seo from '../components/seo';
@@ -71,19 +71,19 @@ const ArtTemplate = (props) => {
       <section className="gallery">
         <div className="gallery-nav">
           <div>
-            <a href="/art/design">
+            <Link to="/art/design">
               <span className="highlight">Design</span>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/art/traditional">
+            <Link to="/art/traditional">
               <span className="highlight">Traditional</span>
-            </a>
+            </Link>
           </div>
           <div>
-            <a href="/art/digital">
+            <Link to="/art/digital">
               <span className="highlight">Digital</span>
-            </a>
+            </Link>
           </div>
         </div>
 
