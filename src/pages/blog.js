@@ -1,5 +1,5 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql, Link } from 'gatsby';
 
 import Seo from '../components/seo';
 
@@ -44,13 +44,13 @@ const BlogPage = () => {
 
               {year.edges.map((post) => (
                 <div key={post.node.id}>
-                  <a href={post.node.frontmatter.permalink}>
+                  <Link to={post.node.frontmatter.permalink}>
                     <span className="highlight">
                       {post.node.frontmatter.title
                         .replace('&#58;', ':')
                         .replace('&amp;', '&')}
                     </span>
-                  </a>
+                  </Link>
                 </div>
               ))}
             </div>
