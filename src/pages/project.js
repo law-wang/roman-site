@@ -24,6 +24,22 @@ const ProjectPage = () => {
         </div>
 
         <div className="project-item">
+          <a href="https://remember.rence.la/">
+            <span className="title highlight">Remember</span>
+          </a>
+          &nbsp;&nbsp;
+          <span className="highlight project-year">2022</span>
+        </div>
+
+        <div className="project-item">
+          <a href="https://idioms.rence.la/">
+            <span className="title highlight">Listing Idioms</span>
+          </a>
+          &nbsp;&nbsp;
+          <span className="highlight project-year">2022</span>
+        </div>
+
+        <div className="project-item">
           <a href="https://thoughts.rence.la/">
             <span className="title highlight">Thoughts</span>
           </a>
@@ -49,14 +65,6 @@ const ProjectPage = () => {
               and Spotify API
             </span>
           </div>
-        </div>
-
-        <div className="project-item">
-          <a href="https://idioms.rence.la/">
-            <span className="title highlight">Listing Idioms</span>
-          </a>
-          &nbsp;&nbsp;
-          <span className="highlight project-year">2022</span>
         </div>
 
         <div className="project-item">
