@@ -138,6 +138,9 @@ header {
   #intro span {
     cursor: pointer;
     font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
   }
   a {
     display: block;
@@ -174,12 +177,14 @@ footer {
   width: 300px;
   background: rgba(255, 193, 49, 1);
   border: 1px solid $bodyColor;
-  div:first-child {
+  // display: none;
+  .popup-close {
     border-bottom: 1px solid $bodyColor;
     text-align: right;
     padding: 5px 10px;
+    cursor: pointer;
   }
-  div:last-child {
+  .popup-content {
     padding: 10px;
   }
 }
