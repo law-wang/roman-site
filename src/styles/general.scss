@@ -182,7 +182,9 @@ footer {
     border-bottom: 1px solid $bodyColor;
     text-align: right;
     padding: 5px 10px;
-    cursor: pointer;
+    span {
+      cursor: pointer;
+    }
   }
   .popup-content {
     padding: 10px;

@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Popup = ({ id, content, top, left }) => {
-  const [visible, setVisible] = useState(false);
-
+const Popup = ({ id, content, top, left, visible, setVisible }) => {
   return (
     <div
       className="popup"
@@ -13,12 +11,10 @@ const Popup = ({ id, content, top, left }) => {
         display: visible ? 'block' : 'none',
       }}
     >
-      <div
-        aria-hidden="true"
-        className="popup-close"
-        onClick={() => setVisible(false)}
-      >
-        close
+      <div className="popup-close">
+        <span aria-hidden="true" onClick={() => setVisible(false)}>
+          close
+        </span>
       </div>
       <div className="popup-content">{content}</div>
     </div>
