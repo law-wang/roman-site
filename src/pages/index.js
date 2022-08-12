@@ -1,12 +1,21 @@
 import React from 'react';
 
 import Seo from '../components/seo';
+import Popup from '../components/popup';
 import '../styles/general.scss';
 
 const Index = () => {
   return (
     <>
       <Seo title="Home" />
+
+      {/* <Popup
+        id="studies"
+        content="Maybe: the intersection between design and computing, song lyrics, room sprays, Chinese poems, grand strategy games, interior design, Cities Skylines, floor plans"
+        top="30"
+        left="30"
+      /> */}
+
       <div id="text">
         <span id="intro" className="highlight">
           Lawrence Wang <br /> is finding who <br /> he is supposed to be. He
