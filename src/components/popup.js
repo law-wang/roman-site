@@ -14,9 +14,9 @@ const Popup = ({ id, content, top, left, visible, setVisible }) => {
         }}
       >
         <div className="popup-close">
-          <span aria-hidden="true" onClick={() => setVisible(false)}>
+          <button aria-hidden="true" onClick={() => setVisible(false)}>
             close
-          </span>
+          </button>
         </div>
         <div className="popup-content">{content}</div>
       </div>

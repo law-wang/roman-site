@@ -172,17 +172,20 @@ footer {
 }
 
 .popup {
-  z-index: 1000;
+  z-index: 2000;
   position: fixed;
   width: 300px;
   background: rgba(255, 193, 49, 1);
   border: 1px solid $bodyColor;
-  // display: none;
+  cursor: default;
   .popup-close {
     border-bottom: 1px solid $bodyColor;
     text-align: right;
     padding: 5px 10px;
-    span {
+    button {
+      padding: 0;
+      border: none;
+      background: none;
       cursor: pointer;
     }
   }
