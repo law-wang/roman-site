@@ -15,7 +15,7 @@ const Index = () => {
 
       <Popup
         id="studies"
-        content="Maybe: Computer Science and Economics, and Political Science"
+        content="Computer Science and Economics, and Political Science"
         top="30%"
         left="30%"
         visible={studyVisible}
@@ -24,7 +24,7 @@ const Index = () => {
 
       <Popup
         id="likes"
-        content="Maybe: the intersection between design and computing, song lyrics, room sprays, Chinese poems, grand strategy games, interior design, Cities Skylines, floor plans"
+        content="The intersection between design and computing, song lyrics, room sprays, Chinese poems and fiction, grand strategy games, interior design, Cities Skylines, floor plans"
         top="25%"
         left="25%"
         visible={likeVisible}
@@ -33,7 +33,7 @@ const Index = () => {
 
       <Popup
         id="become"
-        content="Maybe: Someone who draws, writes, and codes"
+        content="Someone who draws, writes, and codes"
         top="20%"
         left="20%"
         visible={becomeVisible}
