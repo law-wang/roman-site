@@ -187,10 +187,10 @@ const Layout = ({ children }) => {
       <section id="content">{children}</section>
 
       <footer>
+        <span onClick={() => StripSite(canvasRef)}>strip site</span>
         <div id="bottom">
-          <div>
+          <div id="bottom-left">
             <Clock />{' '}
-            <button onClick={() => StripSite(canvasRef)}>Strip</button>
           </div>
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>
         </div>
