@@ -66,6 +66,14 @@ const Clock = () => {
   return <div id="clock">{time.toLocaleTimeString()}</div>;
 };
 
+const StripSite = (ref) => {
+  if (ref.current.style.display === 'none') {
+    ref.current.style.display = 'block';
+  } else {
+    ref.current.style.display = 'none';
+  }
+};
+
 const greetingArray = [
   'The waves come after midnight.',
   'Fall asleep to revolution, then wake up next to a sad excuse.',
@@ -132,6 +140,8 @@ const Layout = ({ children }) => {
       .map((key) => <Star key={key} />)
   );
 
+  const canvasRef = useRef();
+
   return (
     <main>
       <Helmet>
@@ -159,13 +169,16 @@ const Layout = ({ children }) => {
 
       <footer>
         <div id="bottom">
-          <Clock />
+          <div>
+            <Clock />{' '}
+            <button onClick={() => StripSite(canvasRef)}>Strip It</button>
+          </div>
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>
         </div>
       </footer>
 
       {isBrowser && (
-        <section id="canvas">
+        <section id="canvas" ref={canvasRef}>
           <Canvas
             camera={{ position: [0, 0, 90], fov: fov, near: 0.1, far: 1000 }}
             onCreated={({ gl }) => {
