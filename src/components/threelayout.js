@@ -66,14 +66,6 @@ const Clock = () => {
   return <div id="clock">{time.toLocaleTimeString()}</div>;
 };
 
-const StripSite = (ref) => {
-  if (ref.current.style.display === 'none') {
-    ref.current.style.display = 'block';
-  } else {
-    ref.current.style.display = 'none';
-  }
-};
-
 const greetingArray = [
   'The waves come after midnight.',
   'Fall asleep to revolution, then wake up next to a sad excuse.',
@@ -141,6 +133,33 @@ const Layout = ({ children }) => {
   );
 
   const canvasRef = useRef();
+  const StripSite = () => {
+    if (canvasRef.current.style.display === 'none') {
+      canvasRef.current.style.display = 'block';
+      document.documentElement.style.setProperty('--text-color', '#e20413');
+      document.documentElement.style.setProperty(
+        '--highlight-color',
+        '#ffc131'
+      );
+      document.documentElement.style.setProperty(
+        '--background-color',
+        '#cdedee'
+      );
+      document.documentElement.style.setProperty('--select-color', '#ffc131');
+    } else {
+      canvasRef.current.style.display = 'none';
+      document.documentElement.style.setProperty('--text-color', '#000');
+      document.documentElement.style.setProperty(
+        '--highlight-color',
+        '#f8f8f8'
+      );
+      document.documentElement.style.setProperty(
+        '--background-color',
+        '#f8f8f8'
+      );
+      document.documentElement.style.setProperty('--select-color', '#8a8a8a');
+    }
+  };
 
   return (
     <main>
@@ -171,7 +190,7 @@ const Layout = ({ children }) => {
         <div id="bottom">
           <div>
             <Clock />{' '}
-            <button onClick={() => StripSite(canvasRef)}>Strip It</button>
+            <button onClick={() => StripSite(canvasRef)}>Strip</button>
           </div>
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>
         </div>

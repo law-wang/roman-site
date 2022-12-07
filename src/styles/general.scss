@@ -3,8 +3,17 @@
   src: url(./SIMSUN.ttf) format('truetype');
 }
 
-$backgroundColor: #cdedee;
-$bodyColor: #e20413;
+:root {
+  --text-color: #e20413;
+  --highlight-color: #ffc131;
+  --background-color: #cdedee;
+  --select-color: #ffc131;
+}
+
+$bodyColor: var(--text-color);
+$highlightColor: var(--highlight-color);
+$backgroundColor: var(--background-color);
+$selectColor: var(--select-color);
 $bodyFont: 'Times New Roman', 'SimSun', serif;
 
 // Main Colors: Blue #1E1CD8 Red #E91C23 Yellow #EAA206
@@ -31,12 +40,12 @@ $bodyFont: 'Times New Roman', 'SimSun', serif;
 
 ::-moz-selection {
   color: #000;
-  background: #ffc131;
+  background: $selectColor;
 }
 
 ::selection {
   color: #000;
-  background: #ffc131;
+  background: $selectColor;
 }
 
 a {
@@ -75,7 +84,8 @@ body {
   overflow-y: auto;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  background: url('../images/staticblue.png');
+  background-color: $backgroundColor;
+  // background: url('../images/staticblue.png');
 }
 
 #canvas {
@@ -102,7 +112,7 @@ header {
     nav {
       padding-left: 20px;
       .layout-nav {
-        background: rgba(255, 193, 49, 1) !important;
+        background: $highlightColor !important;
         @media (max-width: 700px) {
           background: transparent !important;
         }
@@ -124,8 +134,8 @@ header {
 }
 
 .highlight {
-  color: #e20413 !important;
-  background: rgba(255, 193, 49, 1) !important;
+  color: $bodyColor !important;
+  background: $highlightColor !important;
 }
 
 // INDEX STYLES ****************************************************
@@ -178,7 +188,7 @@ footer {
   z-index: 2000;
   position: fixed;
   width: 300px;
-  background: rgba(255, 193, 49, 1);
+  background: $highlightColor;
   border: 1px solid $bodyColor;
   cursor: default;
   .popup-close {
