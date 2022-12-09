@@ -169,8 +169,10 @@ footer {
   bottom: 0;
   left: 0;
   padding: 10px;
-  & > span {
+  #clock > span:last-of-type {
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 1px;
     cursor: pointer;
     &:hover {
       text-decoration: none;

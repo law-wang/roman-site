@@ -63,7 +63,7 @@ const Clock = () => {
     setTime(new Date());
   }
 
-  return <div id="clock">{time.toLocaleTimeString()}</div>;
+  return <span>{time.toLocaleTimeString()}</span>;
 };
 
 const greetingArray = [
@@ -187,10 +187,9 @@ const Layout = ({ children }) => {
       <section id="content">{children}</section>
 
       <footer>
-        <span onClick={() => StripSite(canvasRef)}>strip site</span>
         <div id="bottom">
-          <div id="bottom-left">
-            <Clock />{' '}
+          <div id="clock">
+            <Clock /> <span onClick={() => StripSite(canvasRef)}>strip</span>
           </div>
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>
         </div>

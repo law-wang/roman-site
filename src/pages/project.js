@@ -10,6 +10,22 @@ const ProjectPage = () => {
 
       <section id="project">
         <div className="project-item">
+          <a href="https://prc.rence.la/">
+            <span className="title highlight">
+              Electoral System in the P.R.C.
+            </span>
+          </a>
+          &nbsp;&nbsp;
+          <span className="highlight project-year">2022</span>
+          <div>
+            <span className="highlight">
+              Project for Comparative Political Parties and Electoral Systems,
+              Fall 2022
+            </span>
+          </div>
+        </div>
+
+        <div className="project-item">
           <a href="https://spot.rence.la/">
             <span className="title highlight">Spotlist Analysis</span>
           </a>
