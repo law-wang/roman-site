@@ -168,19 +168,24 @@ const Layout = ({ children }) => {
       </Helmet>
 
       <header>
-        <div className="navigation">
-          <nav>
-            <Link to="/">info</Link>
-          </nav>
-          <nav>
-            <Link to="/blog">writing</Link>
-          </nav>
-          <nav>
-            <Link to="/project">project</Link>
-          </nav>
-          <nav>
-            <Link to="/art/traditional">art</Link>
-          </nav>
+        <div id="top">
+          <div className="strip" onClick={() => StripSite(canvasRef)}>
+            strip
+          </div>
+          <div className="navigation">
+            <nav>
+              <Link to="/">info</Link>
+            </nav>
+            <nav>
+              <Link to="/blog">writing</Link>
+            </nav>
+            <nav>
+              <Link to="/project">project</Link>
+            </nav>
+            <nav>
+              <Link to="/art/traditional">art</Link>
+            </nav>
+          </div>
         </div>
       </header>
 
@@ -189,7 +194,7 @@ const Layout = ({ children }) => {
       <footer>
         <div id="bottom">
           <div id="clock">
-            <Clock /> <span onClick={() => StripSite(canvasRef)}>strip</span>
+            <Clock />
           </div>
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>
         </div>

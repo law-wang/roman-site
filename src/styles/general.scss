@@ -101,22 +101,55 @@ body {
 
 header {
   position: fixed;
-  width: fit-content;
+  width: 100%;
   top: 0;
   right: 0;
   padding: 10px;
-
-  .navigation {
+  #top {
     display: flex;
-    justify-content: flex-end;
-    nav {
-      padding-left: 20px;
-      .layout-nav {
-        background: $highlightColor !important;
-        @media (max-width: 700px) {
-          background: transparent !important;
+    justify-content: space-between;
+    align-items: flex-start;
+    .strip {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 1px;
+      cursor: pointer;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    .navigation {
+      display: flex;
+      justify-content: flex-end;
+      nav {
+        padding-left: 20px;
+        .layout-nav {
+          background: $highlightColor !important;
+          @media (max-width: 700px) {
+            background: transparent !important;
+          }
         }
       }
+    }
+  }
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    #greeting {
+      margin-left: 15px;
+      text-align: right;
+    }
+    @media (max-width: 500px) {
+      margin-top: 20px;
     }
   }
 }
@@ -155,40 +188,14 @@ header {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;
+    &:hover {
+      text-decoration: none;
+    }
   }
   a {
     display: block;
     margin-top: 5px;
     width: fit-content;
-  }
-}
-
-footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  padding: 10px;
-  #clock > span:last-of-type {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 1px;
-    cursor: pointer;
-    &:hover {
-      text-decoration: none;
-    }
-  }
-  #bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    #greeting {
-      margin-left: 15px;
-      text-align: right;
-    }
-    @media (max-width: 500px) {
-      margin-top: 20px;
-    }
   }
 }
 
@@ -207,7 +214,13 @@ footer {
       padding: 0;
       border: none;
       background: none;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 1px;
       cursor: pointer;
+      &:hover {
+        text-decoration: none;
+      }
       opacity: 1;
       z-index: 9999;
     }
