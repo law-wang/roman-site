@@ -4,10 +4,10 @@
 }
 
 :root {
-  --text-color: #000;
+  --text-color: #e20413;
   --highlight-color: #f8f8f8;
   --background-color: #f8f8f8;
-  --select-color: #8a8a8a;
+  // --select-color: #ffc131;
 }
 
 $bodyColor: var(--text-color);
@@ -40,12 +40,14 @@ $bodyFont: 'Times New Roman', 'SimSun', serif;
 
 ::-moz-selection {
   color: #000;
-  background: $selectColor;
+  // background: $selectColor;
+  background: rgba(0, 0, 0, 0);
 }
 
 ::selection {
   color: #000;
-  background: $selectColor;
+  // background: $selectColor;
+  background: rgba(0, 0, 0, 0);
 }
 
 a {

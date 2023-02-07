@@ -45,75 +45,66 @@ const Index = () => {
           <summary>
             <span className="highlight">Lawrence Wang</span>
           </summary>
-          <span className="highlight">Is finding who he is supposed to be</span>
+          <a
+            className="highlight"
+            href="https://www.instagram.com/rencewang/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            instagram&#x2197;&#xFE0E;
+          </a>
+
+          <a
+            className="highlight"
+            href="https://www.linkedin.com/in/lawrence-c-w/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin&#x2197;&#xFE0E;
+          </a>
         </details>
+
         <details>
           <summary>
             <span className="highlight">Studies</span>
           </summary>
           <span className="highlight">
-            Computer Science and Economics, and Political Science
+            Computer Science and Economics <br />
+            Political Science
           </span>
         </details>
+
         <details>
           <summary>
-            <span className="highlight">Likes</span>
+            <span className="highlight">Takes Interests In</span>
           </summary>
           <span className="highlight">
-            The intersection between design and computing, song lyrics, room
-            sprays, Chinese poems and fiction, grand strategy games, interior
-            design, Cities Skylines, floor plans
+            Intersection between design and computing <br />
+            Song lyrics <br />
+            Chinese poems and fiction <br />
+            Grand strategy games <br />
+            Singing <br />
+            Interior design <br />
+            Cities Skylines <br />
+            The European Union <br />
+            Web design <br />
+            Room sprays <br />
+            Fantasy world building <br />
+            Floor plans <br />
+            Political economy of China <br />
+            Architecture <br />
+            Genshin Impact <br />
           </span>
         </details>
+
         <details>
           <summary>
-            <span className="highlight">Wants to Become</span>
+            <span className="highlight">Hopes to Become</span>
           </summary>
           <span className="highlight">
-            Someone who draws, writes, and codes
+            Someone who draws, writes, and codes <br />
           </span>
         </details>
-
-        {/* <span id="intro" className="highlight" >
-          Lawrence Wang <br /> is finding who <br /> he is supposed to be. He
-          studies{' '}
-          <span
-            aria-hidden="true"
-            onClick={() => setStudyVisible(!studyVisible)}
-          >
-            this
-          </span>
-          , <br /> likes{' '}
-          <span aria-hidden="true" onClick={() => setLikeVisible(!likeVisible)}>
-            these
-          </span>
-          , <br /> and wants to <br /> become <br />{' '}
-          <span
-            aria-hidden="true"
-            onClick={() => setBecomeVisible(!becomeVisible)}
-          >
-            that
-          </span>
-          .
-        </span> */}
-
-        <a
-          className="highlight"
-          href="https://www.instagram.com/rencewang/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          instagram&#x2197;&#xFE0E;
-        </a>
-
-        <a
-          className="highlight"
-          href="https://www.linkedin.com/in/lawrence-c-w/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          linkedin&#x2197;&#xFE0E;
-        </a>
       </div>
     </>
   );

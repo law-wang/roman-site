@@ -5,8 +5,9 @@ year: 2018
 published: true
 category: Music
 tag: [Lorde, Pop, sticky]
-permalink: "/blog/melodrama"
+permalink: '/blog/melodrama'
 type: post
+description: 'Lorde’s idea of youth is acute, indulging, complete and unconditional. So many melodrama will end up being supercuts. So many hard feelings will lead to exclamation of what the fuck are perfect places. Perhaps this youth is imperfect, but its stubborn, tenacious, yet sinister vitality is precious and impossible to compound.'
 ---
 
 If _Pure Heroine_ was about teenage Lorde’s idea of maturity, her imagination of what the adult world must be like, then her sophomore album is precisely the opposite. _Melodrama_ is cool— the toned quality materializes through the predominantly blue album art. And with this record, the brilliant facade of the adult world peels off layer by layer, until all that’s left is the delicate, jaded, melancholic core.
@@ -24,12 +25,14 @@ Of course, love and breakups are quintessential to any grow up story. The remark
 ## From the End of One to the Start of Another
 
 The theme is then reinforced through Sober II (Melodrama) and Writer In The Dark. The love ends, romance is succeeded by melodrama. In the blinding fumes of accusations, we realize that we always knew we would end up here; it’s only in the psycho-high kind of self-indulgence did we forget that:
+
 > They'll talk about us, all the lovers  
 > How we kiss and kill each other.  
 > They'll talk about us, and discover  
 > How we kissed and killed each other.
 
 Yet we can't help but reminisce the magic and love and tender touches in the car that characterized the summertimes, before the blizzard hit the town and we had to board up the windows and retreat into solitude. And in that contemplation, we arrive at the conclusion:
+
 > All of the dreams that get harder,  
 > All of the things that I offer you,  
 > All of the shit that we harbour,  

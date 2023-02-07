@@ -5,8 +5,9 @@ year: 2019
 published: true
 category: Movie and TV
 tag: [Netflix]
-permalink: "/blog/russian-doll"
+permalink: '/blog/russian-doll'
 type: post
+description: 'The world out there can be a vile one. A lonely one. A troubled one. One in which it’s hard to stay alive. But if we can all dig into our hearts, see ourselves for who we are, and learn to forgive and reconcile, maybe we can also let go of the cold, exoskeletal shells of protective covers; let go of the habit of keeping people at a distance; let go of the need to hide our insecurities and conceal our mistakes. In doing so, perhaps we might rediscover the fine world that is worth fighting for.'
 ---
 
 You would think that after an entire school year of Nietzsche, Meursault, Godot, Kafka, Hemingway, and _Like Water for Chocolate_ in International Baccalaureate English would be enough absurdist discussion for a while, if not an entire lifetime. But _Russian Doll_, the extremely odd, extremely beautiful, and extremely thought-provoking delight, proved to be just that piece of existentialism I never knew I needed.

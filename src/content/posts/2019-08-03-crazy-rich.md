@@ -5,8 +5,9 @@ year: 2019
 published: true
 category: Movie and TV
 tag: []
-permalink: "/blog/crazy-rich-asians"
+permalink: '/blog/crazy-rich-asians'
 type: post
+description: "What we have to understand, is that although Rachel is modeled as the 21st century Cinderella, the plot should not be confined to the imagination of Cinderella. Rachel Chu is a self-made, modern woman and a professor at a world-renowned university — she represents the power of self-reliance. She deserves her own career, her own life, not living under someone else’s roof, subordinate to other people’s superiority. In this way, the film's presentation of independence and individuality is confusing at best, and self-contradicting at worst."
 ---
 
 _Crazy Rich Asians_ is a movie that got many things right. The drama is great (albeit unrealistic at times), the performances by Constance Wu, Awkwafina, and Michelle Yeoh (soon debuting her own _Star Trek_ series!) are outstanding, the soundtrack — with heavy Asian-influenced curation (particularly the mandarin version of Yellow) — is touching. But it is also a movie that got a couple of key things wrong, and those significant flaws result in an identity crisis that diminishes the overall message.
@@ -27,7 +28,7 @@ When she goes back with Nick, underneath the glamor of the engagement party, the
 
 ## Cultural Identity
 
-The all-Asian cast is commendable: it shows what multiethic representation in Hollywood and in the international media consumption scene could look like. However, from a cultural perspective, the message of the film stands less firmly. The story presents a war of ideological values between the pan-Asian family-first culture and the Western desire for individual liberation. At its core, the film seems to be praising the Western way of life and derogatory towards the Eastern one, painting it as the antagonist. The set location, even, is Singapore, a place with historically significant colonial influence and westernized allegiance. The old money Crazy Rich Asians of the film still have to fortify a colonial facade with a good-enough-British-accent or the British-style-of-life. All of this not only  misrepresents the way of life for most Asians, but also renders a social verdict that ends up placing individualism above family.
+The all-Asian cast is commendable: it shows what multiethic representation in Hollywood and in the international media consumption scene could look like. However, from a cultural perspective, the message of the film stands less firmly. The story presents a war of ideological values between the pan-Asian family-first culture and the Western desire for individual liberation. At its core, the film seems to be praising the Western way of life and derogatory towards the Eastern one, painting it as the antagonist. The set location, even, is Singapore, a place with historically significant colonial influence and westernized allegiance. The old money Crazy Rich Asians of the film still have to fortify a colonial facade with a good-enough-British-accent or the British-style-of-life. All of this not only misrepresents the way of life for most Asians, but also renders a social verdict that ends up placing individualism above family.
 
 ![Cover](/blogimages/CRA3.jpg)
 

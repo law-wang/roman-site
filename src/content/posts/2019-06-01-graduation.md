@@ -5,13 +5,12 @@ year: 2019
 published: true
 category: Personal
 tag: [Featured, Reflection]
-
-permalink: "/blog/graduation"
+permalink: '/blog/graduation'
 type: post
 description: "So don't become discouraged when the suffocating reality comes crashing down. Sometimes dreams are broken to make space for new ones. They represent a direction, but they’re not always the destination. Perhaps we don’t grow toward them, or for them. We grow to exceed them. Maybe we’re not quite ready for them today, but I know we’ll be ready someday. If we don’t get there, we’ll get somewhere. And I hope that the belief in someday, the dream of somewhere, will be our solace in midst of the ceaseless cluelessness of life."
 ---
 
-Ladies and gentlemen, teachers, administrators, Class of 2019:  <br><br>
+Ladies and gentlemen, teachers, administrators, Class of 2019: <br><br>
 Good evening. It is an absolute honor to be here. When I arrived in America six years ago, quite literally “fresh off the boat,” I never imagined I would be standing here. When I first stepped foot on Troy’s campus, I was entirely clueless about my future. Now, speaking here at graduation, I know exactly the direction I'm going in life! Just kidding, I’m just as clueless as freshman year, but I do know that my experiences at Troy will serve as the foundation of whatever I decide to do in the future.
 
 The past 4 years have been enlightening to say the least. I cannot count how many Spanish presentations I made (well at least now I know 15 is quince and not diecicinco), I learned that sometimes diamonds are produced from the pressures of procrastination, and who would’ve thought that the difficult times at Troy might actually bring people together!
@@ -26,7 +25,7 @@ The second lesson is to build yourself up strong but humble. Surround yourself w
 
 I know, personally, that when Harvard University intimately tells us that they regret to inform us, or when Mr. Kim puts in that 0% on the acid-base titration Iodine Clock test, or when the all-nighter to cram the entire novel _Frankenstein_ is no longer sustainable even with multiple cups of coffee, it can seem like the end of the world. But I also know that rejections are natural to the human experience, and that in the long, long marathon of life, obstacles will show up every step of the way.
 
-But don’t ever let those obstacles sidetrack you, because it may be a fight to live an interesting life, but it’s a fight worth fighting for. Because if we are brave enough to chase after our ideals with unwavering determination, then there is a chance that we’ll succeed. Because I know that someday, when we get to where we’re going, the stories we write will be worth telling, and retelling, and listening to.  
+But don’t ever let those obstacles sidetrack you, because it may be a fight to live an interesting life, but it’s a fight worth fighting for. Because if we are brave enough to chase after our ideals with unwavering determination, then there is a chance that we’ll succeed. Because I know that someday, when we get to where we’re going, the stories we write will be worth telling, and retelling, and listening to.
 
 So don't become discouraged when the suffocating reality comes crashing down. Sometimes dreams are broken to make space for new ones. They represent a direction, but they’re not always the destination. Perhaps we don’t grow toward them, or for them. We grow to exceed them. Maybe we’re not quite ready for them today, but I know we’ll be ready _someday_. If we don’t get there, we’ll get _somewhere_. And I hope that the belief in someday, the dream of somewhere, will be our solace in midst of the ceaseless cluelessness of life.
 
