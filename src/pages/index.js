@@ -41,7 +41,40 @@ const Index = () => {
       />
 
       <div id="text">
-        <span id="intro" className="highlight">
+        <details>
+          <summary>
+            <span className="highlight">Lawrence Wang</span>
+          </summary>
+          <span className="highlight">Is finding who he is supposed to be</span>
+        </details>
+        <details>
+          <summary>
+            <span className="highlight">Studies</span>
+          </summary>
+          <span className="highlight">
+            Computer Science and Economics, and Political Science
+          </span>
+        </details>
+        <details>
+          <summary>
+            <span className="highlight">Likes</span>
+          </summary>
+          <span className="highlight">
+            The intersection between design and computing, song lyrics, room
+            sprays, Chinese poems and fiction, grand strategy games, interior
+            design, Cities Skylines, floor plans
+          </span>
+        </details>
+        <details>
+          <summary>
+            <span className="highlight">Wants to Become</span>
+          </summary>
+          <span className="highlight">
+            Someone who draws, writes, and codes
+          </span>
+        </details>
+
+        {/* <span id="intro" className="highlight" >
           Lawrence Wang <br /> is finding who <br /> he is supposed to be. He
           studies{' '}
           <span
@@ -62,7 +95,7 @@ const Index = () => {
             that
           </span>
           .
-        </span>
+        </span> */}
 
         <a
           className="highlight"
