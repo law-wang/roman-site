@@ -20,6 +20,7 @@ const BlogPage = () => {
                 title
                 permalink
                 updated(formatString: "YYYY[/]MM[/]DD ")
+                description
               }
               id
             }
@@ -43,15 +44,21 @@ const BlogPage = () => {
               </div>
 
               {year.edges.map((post) => (
-                <div key={post.node.id}>
-                  <Link to={post.node.frontmatter.permalink}>
-                    <span className="highlight">
-                      {post.node.frontmatter.title
-                        .replace('&#58;', ':')
-                        .replace('&amp;', '&')}
-                    </span>
-                  </Link>
-                </div>
+                <details key={post.node.id}>
+                  <summary>
+                    {post.node.frontmatter.title
+                      .replace('&#58;', ':')
+                      .replace('&amp;', '&')}
+                  </summary>
+                  <span className="highlight">
+                    {post.node.frontmatter.description}
+                  </span>
+                  <div>
+                    <Link to={post.node.frontmatter.permalink}>
+                      <span className="highlight">Read More</span>
+                    </Link>
+                  </div>
+                </details>
               ))}
             </div>
           ))}
