@@ -109,8 +109,14 @@ const greetingArray = [
   'There in the rear-view mirror disappearing now.',
   "Now I'm dodging plot holes in my sunburnt Silverado.",
   'Are you happy?',
-  'You should at least have something for that.',
   "But that's impossible.",
+  'Are you still there? Good.',
+  'In Paris you asked me if I was afraid.',
+  "I don't mean to keep making it about me.",
+  'Maybe I should see them for myself.',
+  'Remember that they may be behind you.',
+  "I'm gonna start again.",
+  "There's still a lot I haven't put into words yet.",
 ];
 
 // Main render function
