@@ -44,15 +44,21 @@ const Index = () => {
         <span id="intro" className="highlight">
           Lawrence Wang <br /> is finding who <br /> he is supposed to be. He
           studies{' '}
-          <span aria-hidden="true" onClick={() => setStudyVisible(true)}>
+          <span
+            aria-hidden="true"
+            onClick={() => setStudyVisible(!studyVisible)}
+          >
             this
           </span>
           , <br /> likes{' '}
-          <span aria-hidden="true" onClick={() => setLikeVisible(true)}>
+          <span aria-hidden="true" onClick={() => setLikeVisible(!likeVisible)}>
             these
           </span>
           , <br /> and wants to <br /> become <br />{' '}
-          <span aria-hidden="true" onClick={() => setBecomeVisible(true)}>
+          <span
+            aria-hidden="true"
+            onClick={() => setBecomeVisible(!becomeVisible)}
+          >
             that
           </span>
           .
