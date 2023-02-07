@@ -211,7 +211,7 @@ const Layout = ({ children }) => {
       </footer>
 
       {isBrowser && (
-        <section id="canvas" ref={canvasRef}>
+        <section id="canvas" ref={canvasRef} style={{ display: 'none' }}>
           <Canvas
             camera={{ position: [0, 0, 90], fov: fov, near: 0.1, far: 1000 }}
             onCreated={({ gl }) => {
