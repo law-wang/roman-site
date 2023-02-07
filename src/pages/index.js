@@ -1,45 +1,12 @@
 import React, { useState } from 'react';
 
 import Seo from '../components/seo';
-import Popup from '../components/popup';
 import '../styles/general.scss';
 
 const Index = () => {
-  const [studyVisible, setStudyVisible] = useState(false);
-  const [likeVisible, setLikeVisible] = useState(false);
-  const [becomeVisible, setBecomeVisible] = useState(false);
-
   return (
     <>
       <Seo title="Home" />
-
-      <Popup
-        id="studies"
-        content="Computer Science and Economics, and Political Science"
-        top="30%"
-        left="30%"
-        visible={studyVisible}
-        setVisible={setStudyVisible}
-      />
-
-      <Popup
-        id="likes"
-        content="The intersection between design and computing, song lyrics, room sprays, Chinese poems and fiction, grand strategy games, interior design, Cities Skylines, floor plans"
-        top="25%"
-        left="25%"
-        visible={likeVisible}
-        setVisible={setLikeVisible}
-      />
-
-      <Popup
-        id="become"
-        content="Someone who draws, writes, and codes"
-        top="20%"
-        left="20%"
-        visible={becomeVisible}
-        setVisible={setBecomeVisible}
-      />
-
       <div id="text">
         <details>
           <summary>
@@ -63,7 +30,6 @@ const Index = () => {
             linkedin&#x2197;&#xFE0E;
           </a>
         </details>
-
         <details>
           <summary>
             <span className="highlight">Studies</span>
@@ -73,7 +39,6 @@ const Index = () => {
             Political Science
           </span>
         </details>
-
         <details>
           <summary>
             <span className="highlight">Takes Interests In</span>
@@ -96,7 +61,6 @@ const Index = () => {
             Genshin Impact <br />
           </span>
         </details>
-
         <details>
           <summary>
             <span className="highlight">Hopes to Become</span>
@@ -106,6 +70,7 @@ const Index = () => {
             Someone who draws, writes, and codes <br />
           </span>
         </details>
+        [Note: Site Undergoing Renovation]
       </div>
     </>
   );
