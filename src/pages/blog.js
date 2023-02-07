@@ -38,10 +38,12 @@ const BlogPage = () => {
           .slice(0)
           .reverse()
           .map((year, index) => (
-            <div className="category" key={index}>
-              <div>
-                <span className="title highlight">{year.fieldValue}</span>
-              </div>
+            <details className="category" key={index} open>
+              <summary>
+                <span className="highlight" style={{ fontWeight: 700 }}>
+                  {year.fieldValue}
+                </span>
+              </summary>
 
               {year.edges.map((post) => (
                 <details key={post.node.id}>
@@ -50,6 +52,7 @@ const BlogPage = () => {
                       .replace('&#58;', ':')
                       .replace('&amp;', '&')}
                   </summary>
+                  <div>{post.node.frontmatter.updated}</div>
                   <span className="highlight">
                     {post.node.frontmatter.description}
                   </span>
@@ -60,7 +63,7 @@ const BlogPage = () => {
                   </div>
                 </details>
               ))}
-            </div>
+            </details>
           ))}
       </section>
     </>

@@ -102,6 +102,7 @@ const Index = () => {
             <span className="highlight">Hopes to Become</span>
           </summary>
           <span className="highlight">
+            Aspriational world traveller <br />
             Someone who draws, writes, and codes <br />
           </span>
         </details>
