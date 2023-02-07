@@ -139,7 +139,7 @@ const Layout = ({ children }) => {
   );
 
   const canvasRef = useRef();
-  const [stripButtonText, changeStripButtonText] = useState('Strip');
+  const [stripButtonText, changeStripButtonText] = useState('Fill');
 
   const StripSite = () => {
     if (canvasRef.current.style.display === 'none') {

@@ -4,10 +4,10 @@
 }
 
 :root {
-  --text-color: #e20413;
-  --highlight-color: #ffc131;
-  --background-color: #cdedee;
-  --select-color: #ffc131;
+  --text-color: #000;
+  --highlight-color: #f8f8f8;
+  --background-color: #f8f8f8;
+  --select-color: #8a8a8a;
 }
 
 $bodyColor: var(--text-color);
@@ -89,6 +89,7 @@ body {
 }
 
 #canvas {
+  display: none;
   z-index: -500;
   position: fixed;
   top: 0;
