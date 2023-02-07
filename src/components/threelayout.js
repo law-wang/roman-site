@@ -139,8 +139,11 @@ const Layout = ({ children }) => {
   );
 
   const canvasRef = useRef();
+  const [stripButtonText, changeStripButtonText] = useState('Strip');
+
   const StripSite = () => {
     if (canvasRef.current.style.display === 'none') {
+      changeStripButtonText('Strip');
       canvasRef.current.style.display = 'block';
       document.documentElement.style.setProperty('--text-color', '#e20413');
       document.documentElement.style.setProperty(
@@ -154,6 +157,7 @@ const Layout = ({ children }) => {
       document.documentElement.style.setProperty('--select-color', '#ffc131');
     } else {
       canvasRef.current.style.display = 'none';
+      changeStripButtonText('Fill');
       document.documentElement.style.setProperty('--text-color', '#000');
       document.documentElement.style.setProperty(
         '--highlight-color',
@@ -176,7 +180,7 @@ const Layout = ({ children }) => {
       <header>
         <div id="top">
           <div className="strip" onClick={() => StripSite(canvasRef)}>
-            strip
+            {stripButtonText}
           </div>
           <div className="navigation">
             <nav>
