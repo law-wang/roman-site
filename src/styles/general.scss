@@ -48,18 +48,20 @@ $bodyFont: 'Times New Roman', 'SimSun', serif;
   background: rgba(0, 0, 0, 0);
 }
 
-a {
+a,
+.link-button {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 1px;
-
+  cursor: pointer;
   &:active {
     background-color: transparent;
   }
 }
 
 @media (hover: hover) {
-  a:hover {
+  a:hover,
+  .link-button:hover {
     text-decoration: none;
   }
 }
@@ -109,15 +111,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    .strip {
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 1px;
-      cursor: pointer;
-      &:hover {
-        text-decoration: none;
-      }
-    }
     .navigation {
       display: flex;
       justify-content: flex-end;
@@ -166,10 +159,7 @@ footer {
   overflow-y: scroll;
 }
 
-.highlight {
-  color: $bodyColor !important;
-  background: $highlightColor !important;
-}
+// DETAILS SUMMARY STYLES ****************************************************
 
 // MARKDOWN STYLES ****************************************************
 
@@ -180,12 +170,11 @@ blockquote {
 
 sup {
   vertical-align: top;
-}
-
-a.footnote-ref {
-  font-size: smaller;
-  margin-left: 0px;
-  text-decoration: none !important;
+  font-size: 12px;
+  a.footnote-ref {
+    font-size: 15px;
+    margin-left: 0px;
+  }
 }
 
 .footnotes {
@@ -198,6 +187,9 @@ a.footnote-ref {
   }
   ol li p {
     margin-bottom: 0;
+  }
+  a {
+    padding-left: 5px;
   }
 }
 
@@ -227,11 +219,6 @@ a.footnote-ref {
   }
 }
 
-.title {
-  font-weight: bold;
-  font-size: 30px;
-}
-
 .postcontent {
   margin-bottom: 20px;
   line-height: 1.4;
@@ -253,22 +240,7 @@ a.footnote-ref {
   }
 }
 
-// PROJECT STYLES ****************************************************
-
-#project {
-  .project-item {
-    div {
-      margin: 5px 0 0 0;
-    }
-    .project-year {
-      font-style: italic;
-      font-weight: 700;
-    }
-    margin: 5px 0 20px 0;
-  }
-}
-
-// EXTRAS STYLES ****************************************************
+// FUNCTIONAL STYLES ****************************************************
 
 .hidden {
   opacity: 0;
@@ -285,4 +257,14 @@ a.footnote-ref {
 .bold-italic {
   font-style: italic;
   font-weight: 700;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.highlight {
+  color: $bodyColor !important;
+  background: $highlightColor !important;
 }

@@ -175,7 +175,7 @@ const Layout = ({ children }) => {
 
       <header>
         <div id="top">
-          <div className="strip" onClick={() => StripSite(canvasRef)}>
+          <div className="link-button" onClick={() => StripSite(canvasRef)}>
             {stripButtonText}
           </div>
           <div className="navigation">
