@@ -15,7 +15,7 @@ const ProjectPage = () => {
             <summary>
               <span className="title highlight">{project.title}</span>
               &nbsp;&nbsp;
-              <span className="highlight bold-italic">{project.year}</span>
+              <span className="highlight bold italic">{project.year}</span>
             </summary>
 
             <span className="highlight">{project.description}</span>

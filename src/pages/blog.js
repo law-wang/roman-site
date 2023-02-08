@@ -19,7 +19,7 @@ const BlogPage = () => {
               frontmatter {
                 title
                 permalink
-                updated(formatString: "MMMM DD")
+                updated(formatString: "YYYY")
                 description
               }
               id
@@ -38,24 +38,22 @@ const BlogPage = () => {
           .slice(0)
           .reverse()
           .map((year, index) => (
-            <details key={index} open>
-              <summary>
-                <span className="title highlight">{year.fieldValue}</span>
-              </summary>
-
+            <div key={index} className="year-group">
               {year.edges.map((post, postIndex) => (
-                <details key={postIndex}>
+                <details key={postIndex} open>
                   <summary>
-                    <span className="highlight">
+                    <span className="title highlight">
                       {post.node.frontmatter.title
                         .replace('&#58;', ':')
                         .replace('&amp;', '&')}
                     </span>
+                    &nbsp;&nbsp;
+                    <span className="highlight bold italic">
+                      {post.node.frontmatter.updated}
+                    </span>
                   </summary>
 
-                  <div></div>
                   <span className="highlight">
-                    On {post.node.frontmatter.updated}:{' '}
                     {post.node.frontmatter.description}
                   </span>
 
@@ -64,7 +62,7 @@ const BlogPage = () => {
                   </Link>
                 </details>
               ))}
-            </details>
+            </div>
           ))}
       </section>
     </>
