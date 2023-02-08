@@ -177,6 +177,15 @@ details {
   margin-bottom: 10px;
 }
 
+.year-group {
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
+  &:not(:last-child) {
+    border-bottom: 1px solid $bodyColor;
+  }
+}
+
 // MARKDOWN STYLES ****************************************************
 
 blockquote {

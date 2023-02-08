@@ -8,7 +8,7 @@ const Index = () => {
     <>
       <Seo title="Home" />
       <div id="text">
-        <details open>
+        <details>
           <summary>
             <span className="title highlight">Lawrence Wang</span>
           </summary>

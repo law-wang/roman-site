@@ -175,7 +175,11 @@ const Layout = ({ children }) => {
 
       <header>
         <div id="top">
-          <div className="link-button" onClick={() => StripSite(canvasRef)}>
+          <div
+            className="link-button"
+            onClick={() => StripSite(canvasRef)}
+            aria-hidden="true"
+          >
             {stripButtonText}
           </div>
           <div className="navigation">
@@ -194,9 +198,7 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </header>
-
       <section id="content">{children}</section>
-
       <footer>
         <div id="bottom">
           <div id="clock">
@@ -205,7 +207,6 @@ const Layout = ({ children }) => {
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>
         </div>
       </footer>
-
       {isBrowser && (
         <section id="canvas" ref={canvasRef} style={{ display: 'none' }}>
           <Canvas
