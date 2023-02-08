@@ -7,7 +7,7 @@ category: Movie and TV
 tag: [Christopher Nolan, Thriller]
 permalink: '/blog/the-prestige'
 type: post
-description: 'In the film, Angier and Borden both wrote journals. Fake journals, more like. Full of things they want the other person to see. They tried to decipher each other’s journal, tried to look for the secret. They were both convinced that they found each other’s secret. But did they? They believed what they wanted to believe. In other words, they wanted to be fooled.'
+description: 'They were both convinced that they found each other’s secret. But did they? They believed what they wanted to believe. In other words, they wanted to be fooled.'
 ---
 
 When people think of Christopher Nolan, the first movies that pop into mind are probably the likes of _Inception_ or _Interstellar_ or _The Dark Knight_, the high-grossing international sensations that constructed the fan base of his cinematic empire. But to many people, the often overlooked 2006 classic, The Prestige, represent the most iconic piece of Nolan’s story telling.

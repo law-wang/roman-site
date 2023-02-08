@@ -7,7 +7,7 @@ category: Music
 tag: [Lana, Pop, Featured]
 permalink: '/blog/nfr'
 type: post
-description: 'It''s getting warmer in Los Angeles (which makes me miss, somewhat, the chilly mornings when I had to wake up at 6 to attend Zoom University — how masochistic of me). Summer is coming, the best batch of loquat is ready for picking, the six-feet-apart-crosses-marked line at Costco, well, probably hasn''t shrunk but subconsciously seems shorter. After all, it''s not just you and me who are not going anywhere: "no one''s going anywhere," and as Lana famously said: "the culture is lit."'
+description: 'After all, it''s not just you and me who are not going anywhere: "no one''s going anywhere," and as Lana famously said: "the culture is lit."'
 ---
 
 For me, a good Lana song does two things: 1) makes me fall asleep and 2) gives me edgy inspiration upon further examination (the next morning, as it usually turns out). So it should come as no surprise that The Next Best American Record happened to be the first song from _Norman Fucking Rockwell!_ that I fell for — the nonsensical lyrics are so fun to decode, though they probably mean nothing, and the song drags on and on and on until it leaves me in the perfect slumber — enviable merits, I know.

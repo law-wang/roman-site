@@ -7,7 +7,7 @@ category: Movie and TV
 tag: [Tom Ford, David Fincher]
 permalink: '/blog/gone-girl-nocturnal-animals'
 type: post
-description: 'What she never considers is that, perhaps, she doesn’t need to be the cool girl, and Nick doesn’t have to be a model husband, her life can be saved from the lies. But no, that’s not what the Gone Girl wants. Truth? Happiness? Who cares. It’s only for show anyway.'
+description: 'What she never considers is that, perhaps, she doesn’t need to be the cool girl, and Nick doesn’t have to be a model husband. Her life can be saved from the lies. But no, that’s not what the Gone Girl wants. Truth? Happiness? Who cares. It’s only for show anyway.'
 ---
 
 _Gone Girl_ and _Nocturnal Animals_ — released two years apart, one by the legendary David Fincher, the other by the fashion mongol Tom Ford — are strikingly similar in many ways. Both contain wonderful shots, such as when Ben Affleck’s fingers run through Rosamund Pike’s hair and when Amy Adams stands in front of the mirror in her green dress as A Table For Two plays in the background. _Gone Girl_ describes the aftermath of a girl losing the perfect guy she was promised, whereas _Nocturnal Animals_ describes that of a guy losing his wife and child. Now, maybe Tom Ford’s use of color and treatment of silence makes his work the more artsy of the two, but we should all be able to agree that the two share a common discussion of love and revenge.
@@ -36,6 +36,6 @@ As such, the social construct is a common factor in both tragedies. One shatters
 
 When Prince Charming is no longer and Cool Girl becomes Gone Girl, the two have to collect their wreck of a marriage and carry on. Cool Girl does not care about the delicateness of a marriage, she acts with minimal considerations of the circumstances because she knows she’s smarter than the rest of them. She cried, demanded, threatened, provoked. She taints herself with blood. She uses anyone and everyone she could. By doing so, she ends up securing the illusory love and marriage.
 
-What she never considers is that, perhaps, she doesn’t need to be the cool girl, and Nick doesn’t have to be a model husband, her life can be saved from the lies. But no, that’s not what the Gone Girl wants. Truth? Happiness? Who cares. It’s only for show anyway.
+What she never considers is that, perhaps, she doesn’t need to be the cool girl, and Nick doesn’t have to be a model husband. Her life can be saved from the lies. But no, that’s not what the Gone Girl wants. Truth? Happiness? Who cares. It’s only for show anyway.
 
 _Nocturnal Animals_ carries the opposite message. It tells us that when you love someone, you have to be careful with it because once you break it, you might never get back it again, just like how Susan sits in the restaurant waiting for Edward who will never show. They meet, mess each other’s lives up, and have to live forever knowing what they could have had. In other words, they don’t need to meet again because even though they once loved each other, they both know Susan loves herself more. _When it comes to love, everyone is to blame._

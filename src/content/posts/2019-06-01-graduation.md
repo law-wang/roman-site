@@ -7,7 +7,7 @@ category: Personal
 tag: [Featured, Reflection]
 permalink: '/blog/graduation'
 type: post
-description: "So don't become discouraged when the suffocating reality comes crashing down. Sometimes dreams are broken to make space for new ones. They represent a direction, but they’re not always the destination. Perhaps we don’t grow toward them, or for them. We grow to exceed them. Maybe we’re not quite ready for them today, but I know we’ll be ready someday. If we don’t get there, we’ll get somewhere. And I hope that the belief in someday, the dream of somewhere, will be our solace in midst of the ceaseless cluelessness of life."
+description: "So don't become discouraged when the suffocating reality comes crashing down. Sometimes dreams are broken to make space for new ones."
 ---
 
 Ladies and gentlemen, teachers, administrators, Class of 2019: <br><br>

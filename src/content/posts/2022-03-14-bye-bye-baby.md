@@ -7,7 +7,7 @@ category: Personal
 tag: [Reflection]
 permalink: '/blog/21'
 type: post
-description: '21 is still young, but how did my outlook in life become so gloomy and stoic? I am so scared, of how this might end: in an age where many passions have gone, or are uncertain and shielded, what ought I live for? It really is tragic, when one day you feel like you are finally ready to free the grand romantic in you, but the romantic in you is gone after many years of wear and tear, struggling and crawling in the dire reality.'
+description: 'It really is tragic, when one day you feel like you are finally ready to free the grand romantic in you, but the romantic in you is gone after many years of wear and tear, struggling and crawling in the dire reality.'
 ---
 
 I turn 21 today. The funny thing is that I don’t feel like doing anything. Eating, drinking, planning anything special, none of that. I wonder if it’s because old age has finally crept into my soul. Last year, when people called me old for entering the third decade of my life, I was still joking “what are you talking about? I'm still three, and I’ll always be three!” Now I'm not in the joking mood anymore. I don’t even feel like having moods or expressions or emotions.

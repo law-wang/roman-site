@@ -19,6 +19,7 @@ const BlogPage = () => {
               frontmatter {
                 title
                 permalink
+                updated(formatString: "MMMM DD")
                 description
               }
               id
@@ -52,7 +53,9 @@ const BlogPage = () => {
                     </span>
                   </summary>
 
+                  <div></div>
                   <span className="highlight">
+                    On {post.node.frontmatter.updated}:{' '}
                     {post.node.frontmatter.description}
                   </span>
 

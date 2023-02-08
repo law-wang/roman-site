@@ -7,7 +7,7 @@ category: Movie and TV
 tag: []
 permalink: '/blog/crazy-rich-asians'
 type: post
-description: "What we have to understand, is that although Rachel is modeled as the 21st century Cinderella, the plot should not be confined to the imagination of Cinderella. Rachel Chu is a self-made, modern woman and a professor at a world-renowned university — she represents the power of self-reliance. She deserves her own career, her own life, not living under someone else’s roof, subordinate to other people’s superiority. In this way, the film's presentation of independence and individuality is confusing at best, and self-contradicting at worst."
+description: 'What we have to understand, is that although Rachel is modeled as the 21st century Cinderella, the plot should not be confined to the imagination of Cinderella. '
 ---
 
 _Crazy Rich Asians_ is a movie that got many things right. The drama is great (albeit unrealistic at times), the performances by Constance Wu, Awkwafina, and Michelle Yeoh (soon debuting her own _Star Trek_ series!) are outstanding, the soundtrack — with heavy Asian-influenced curation (particularly the mandarin version of Yellow) — is touching. But it is also a movie that got a couple of key things wrong, and those significant flaws result in an identity crisis that diminishes the overall message.
