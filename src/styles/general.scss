@@ -5,7 +5,7 @@
 
 :root {
   --text-color: #c7000d;
-  --highlight-color: #f8f8f8;
+  --highlight-color: transparent;
   --background-color: #f8f8f8;
   --select-color: #000;
 }
@@ -96,6 +96,20 @@ body {
   height: 100vh;
   background: url('../images/staticblue.png');
   background-color: #cdedee;
+}
+
+#background {
+  z-index: -400;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  background-image: url('../images/noise.gif');
+  background-repeat: repeat;
+  pointer-events: none;
 }
 
 header {

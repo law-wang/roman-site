@@ -162,7 +162,7 @@ const Layout = ({ children }) => {
       changeStripButtonText('Fill');
       document.documentElement.style.setProperty(
         '--highlight-color',
-        '#f8f8f8'
+        'transparent'
       );
       document.documentElement.style.setProperty(
         '--background-color',
@@ -215,6 +215,8 @@ const Layout = ({ children }) => {
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>
         </div>
       </footer>
+
+      <section id="background"></section>
 
       {isBrowser && (
         <section id="canvas" ref={canvasRef} style={{ display: 'none' }}>
