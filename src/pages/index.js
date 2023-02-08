@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Seo from '../components/seo';
 import '../styles/general.scss';
@@ -30,6 +30,7 @@ const Index = () => {
             linkedin&#x2197;&#xFE0E;
           </a>
         </details>
+
         <details open>
           <summary>
             <span className="title highlight">Studies</span>
@@ -39,6 +40,7 @@ const Index = () => {
             Political Science
           </span>
         </details>
+
         <details open>
           <summary>
             <span className="title highlight">Takes Interests In</span>
@@ -61,6 +63,7 @@ const Index = () => {
             Genshin Impact <br />
           </span>
         </details>
+
         <details open>
           <summary>
             <span className="title highlight">Hopes to Become</span>
@@ -70,8 +73,8 @@ const Index = () => {
             Someone who draws, writes, and codes <br />
           </span>
         </details>
-        [Note: Site Undergoing Renovation]
       </div>
+      [Note: Site Undergoing Renovation]
     </>
   );
 };

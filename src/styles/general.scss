@@ -4,7 +4,7 @@
 }
 
 :root {
-  --text-color: #ac000b;
+  --text-color: #c7000d;
   --highlight-color: #f8f8f8;
   --background-color: #f8f8f8;
   --select-color: #000;
@@ -169,65 +169,6 @@ footer {
 .highlight {
   color: $bodyColor !important;
   background: $highlightColor !important;
-}
-
-// INDEX STYLES ****************************************************
-
-#text {
-  #intro,
-  #intro * {
-    font-size: 60px;
-    padding: 1.5px 0;
-    @media (max-width: 500px) {
-      font-size: 40px;
-    }
-  }
-  #intro span {
-    cursor: pointer;
-    font-style: italic;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 5px;
-    &:hover {
-      text-decoration: none;
-    }
-  }
-  a {
-    display: block;
-    margin-top: 5px;
-    width: fit-content;
-  }
-}
-
-.popup {
-  z-index: 2000;
-  position: fixed;
-  width: 300px;
-  background: $highlightColor;
-  border: 1px solid $bodyColor;
-  cursor: default;
-  .popup-close {
-    border-bottom: 1px solid $bodyColor;
-    text-align: right;
-    padding: 5px 10px;
-    span {
-      padding: 0;
-      border: none;
-      background: none;
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 1px;
-      cursor: pointer;
-      &:hover {
-        text-decoration: none;
-      }
-      opacity: 1;
-      z-index: 9999;
-    }
-  }
-  .popup-content {
-    padding: 10px;
-  }
 }
 
 // MARKDOWN STYLES ****************************************************
