@@ -13,21 +13,19 @@ const Index = () => {
             <span className="title highlight">Lawrence Wang</span>
           </summary>
           <a
-            className="highlight"
             href="https://www.instagram.com/rencewang/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            instagram&#x2197;&#xFE0E;
+            <span className="highlight">Instagram</span>
           </a>
 
           <a
-            className="highlight"
             href="https://www.linkedin.com/in/lawrence-c-w/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            linkedin&#x2197;&#xFE0E;
+            <span className="highlight">Linkedin</span>
           </a>
         </details>
 
