@@ -11,7 +11,7 @@ const ProjectPage = () => {
 
       <section id="project">
         {projects.map((project, index) => (
-          <details key={index} open>
+          <details key={index} open={index < 3}>
             <summary>
               <span className="title highlight">{project.title}</span>
               &nbsp;&nbsp;

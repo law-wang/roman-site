@@ -54,46 +54,27 @@ const ArtTemplate = (props) => {
   const digital = [];
   imageQuery.digital.edges.map((data) => digital.push(getImage(data.node)));
 
-  let images = [];
-
-  if (pageTitle === 'Traditional') {
-    images = traditional;
-  } else if (pageTitle === 'Design') {
-    images = design.reverse();
-  } else if (pageTitle === 'Digital') {
-    images = digital.reverse();
-  }
+  let allArt = [traditional, design, digital];
+  let artNames = ['Traditional', 'Design', 'Digital'];
 
   return (
     <>
       <Seo title={pageTitle} />
 
       <section className="gallery">
-        <div className="gallery-nav">
-          <div>
-            <Link to="/art/design">
-              <span className="highlight">Design</span>
-            </Link>
-          </div>
-          <div>
-            <Link to="/art/traditional">
-              <span className="highlight">Traditional</span>
-            </Link>
-          </div>
-          <div>
-            <Link to="/art/digital">
-              <span className="highlight">Digital</span>
-            </Link>
-          </div>
-        </div>
+        {allArt.map((category, index) => (
+          <details key={index} open={index === allArt.length - 1}>
+            <summary>
+              <span className="title highlight">{artNames[index]}</span>
+            </summary>
 
-        <div className="gallery-container">
-          {images.map((data, index) => (
-            <div className="gallery-image" key={index}>
-              <GatsbyImage image={data} alt={data.name} />
-            </div>
-          ))}
-        </div>
+            {category.map((data, index) => (
+              <div className="gallery-image" key={index}>
+                <GatsbyImage image={data} alt={data.name} />
+              </div>
+            ))}
+          </details>
+        ))}
       </section>
     </>
   );

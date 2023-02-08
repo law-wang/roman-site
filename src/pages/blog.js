@@ -40,7 +40,7 @@ const BlogPage = () => {
           .map((year, index) => (
             <div key={index} className="year-group">
               {year.edges.map((post, postIndex) => (
-                <details key={postIndex} open>
+                <details key={postIndex} open={index === 0 && postIndex < 3}>
                   <summary>
                     <span className="title highlight">
                       {post.node.frontmatter.title

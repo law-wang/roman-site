@@ -189,7 +189,7 @@ const Layout = ({ children }) => {
               <Link to="/project">project</Link>
             </nav>
             <nav>
-              <Link to="/art/traditional">art</Link>
+              <Link to="/art">art</Link>
             </nav>
           </div>
         </div>

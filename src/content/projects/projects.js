@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: 'Thoughts',
+    year: '2019-Present',
+    description:
+      'Type-foundry-esque platform for logging daily thoughts, powered by AWS Amplify',
+    link: 'https://thoughts.rence.la/',
+  },
+  {
     title: 'Spotlist Analysis',
     year: '2022',
     description:
@@ -30,13 +37,6 @@ const projects = [
     year: '2022',
     description: 'fdsa',
     link: 'https://idioms.rence.la/',
-  },
-  {
-    title: 'Thoughts',
-    year: '2019-Present',
-    description:
-      'Type-foundry-esque platform for logging daily thoughts, powered by AWS Amplify',
-    link: 'https://thoughts.rence.la/',
   },
   {
     title: 'Spotlist',
