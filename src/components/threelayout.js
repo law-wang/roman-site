@@ -120,24 +120,25 @@ const greetingArray = [
 ];
 
 // Main render function
-const Layout = ({ children }) => {
+const Layout = ({ children, location }) => {
   // checking broswer size for three.js zoom
   const isBrowser = typeof window !== 'undefined';
   let fov;
   if (isBrowser) {
     fov = window.innerWidth > 500 ? 40 : 75;
   }
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname, children]);
 
   const [greetingText] = useState(
     greetingArray[Math.floor(Math.random() * greetingArray.length)]
   );
-
   const [stars] = useState(
     Array(300)
       .fill()
       .map((key) => <Star key={key} />)
   );
-
   const canvasRef = useRef();
   const [stripButtonText, changeStripButtonText] = useState('Fill');
 

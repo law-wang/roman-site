@@ -6,9 +6,7 @@ const NotFoundPage = () => (
   <>
     <Seo title="404" />
     <div id="text">
-      <span id="intro" className="highlight">
-        This page does not exist.
-      </span>
+      <span className="title highlight">This page does not exist.</span>
     </div>
   </>
 );
