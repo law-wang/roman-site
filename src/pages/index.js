@@ -8,9 +8,9 @@ const Index = () => {
     <>
       <Seo title="Home" />
       <div id="text">
-        <details>
+        <details open>
           <summary>
-            <span className="highlight">Lawrence Wang</span>
+            <span className="title highlight">Lawrence Wang</span>
           </summary>
           <a
             className="highlight"
@@ -30,18 +30,18 @@ const Index = () => {
             linkedin&#x2197;&#xFE0E;
           </a>
         </details>
-        <details>
+        <details open>
           <summary>
-            <span className="highlight">Studies</span>
+            <span className="title highlight">Studies</span>
           </summary>
           <span className="highlight">
             Computer Science and Economics <br />
             Political Science
           </span>
         </details>
-        <details>
+        <details open>
           <summary>
-            <span className="highlight">Takes Interests In</span>
+            <span className="title highlight">Takes Interests In</span>
           </summary>
           <span className="highlight">
             Intersection between design and computing <br />
@@ -61,9 +61,9 @@ const Index = () => {
             Genshin Impact <br />
           </span>
         </details>
-        <details>
+        <details open>
           <summary>
-            <span className="highlight">Hopes to Become</span>
+            <span className="title highlight">Hopes to Become</span>
           </summary>
           <span className="highlight">
             Aspriational world traveller <br />

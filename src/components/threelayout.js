@@ -145,7 +145,6 @@ const Layout = ({ children }) => {
     if (canvasRef.current.style.display === 'none') {
       changeStripButtonText('Strip');
       canvasRef.current.style.display = 'block';
-      document.documentElement.style.setProperty('--text-color', '#e20413');
       document.documentElement.style.setProperty(
         '--highlight-color',
         '#ffc131'
@@ -154,11 +153,9 @@ const Layout = ({ children }) => {
         '--background-color',
         '#cdedee'
       );
-      // document.documentElement.style.setProperty('--select-color', '#ffc131');
     } else {
       canvasRef.current.style.display = 'none';
       changeStripButtonText('Fill');
-      document.documentElement.style.setProperty('--text-color', '#e20413');
       document.documentElement.style.setProperty(
         '--highlight-color',
         '#f8f8f8'
@@ -167,7 +164,6 @@ const Layout = ({ children }) => {
         '--background-color',
         '#f8f8f8'
       );
-      // document.documentElement.style.setProperty('--select-color', '#8a8a8a');
     }
   };
 

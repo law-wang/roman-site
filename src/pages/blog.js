@@ -40,7 +40,7 @@ const BlogPage = () => {
           .map((year, index) => (
             <details className="category" key={index} open>
               <summary>
-                <span className="highlight" style={{ fontWeight: 700 }}>
+                <span className="title highlight" style={{ fontWeight: 700 }}>
                   {year.fieldValue}
                 </span>
               </summary>
