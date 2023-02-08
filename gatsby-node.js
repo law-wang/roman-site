@@ -4,7 +4,6 @@ const fs = require('fs');
 const yaml = require('js-yaml');
 
 const blogTemplate = path.resolve(`./src/templates/blogTemplate.js`);
-// const artTemplate = path.resolve(`./src/templates/artTemplate.js`);
 
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
@@ -53,16 +52,4 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
       },
     });
   });
-
-  // const art = yaml.load(fs.readFileSync("./src/content/art/art.yaml", "utf-8"))
-  // art.forEach(element => {
-  //   createPage({
-  //     path: element.path,
-  //     component: artTemplate,
-  //     context: {
-  //       pageContent: element.content,
-  //       pageTitle: element.title,
-  //     },
-  //   })
-  // })
 };
