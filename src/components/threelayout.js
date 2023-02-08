@@ -120,28 +120,31 @@ const greetingArray = [
 ];
 
 // Main render function
-const Layout = ({ children, location }) => {
+const Layout = ({ children }) => {
   // checking broswer size for three.js zoom
   const isBrowser = typeof window !== 'undefined';
   let fov;
   if (isBrowser) {
     fov = window.innerWidth > 500 ? 40 : 75;
   }
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location.pathname, children]);
 
-  const [greetingText] = useState(
-    greetingArray[Math.floor(Math.random() * greetingArray.length)]
-  );
   const [stars] = useState(
     Array(300)
       .fill()
       .map((key) => <Star key={key} />)
   );
+
+  const [greetingText] = useState(
+    greetingArray[Math.floor(Math.random() * greetingArray.length)]
+  );
+
+  const contentRef = useRef();
+  useEffect(() => {
+    contentRef.current.scrollTop = 0;
+  }, [children]);
+
   const canvasRef = useRef();
   const [stripButtonText, changeStripButtonText] = useState('Fill');
-
   const StripSite = () => {
     if (canvasRef.current.style.display === 'none') {
       changeStripButtonText('Strip');
@@ -199,7 +202,11 @@ const Layout = ({ children, location }) => {
           </div>
         </div>
       </header>
-      <section id="content">{children}</section>
+
+      <section id="content" ref={contentRef}>
+        {children}
+      </section>
+
       <footer>
         <div id="bottom">
           <div id="clock">
@@ -208,6 +215,7 @@ const Layout = ({ children, location }) => {
           <div id="greeting">&ldquo;{greetingText}&rdquo;</div>
         </div>
       </footer>
+
       {isBrowser && (
         <section id="canvas" ref={canvasRef} style={{ display: 'none' }}>
           <Canvas
