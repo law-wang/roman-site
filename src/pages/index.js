@@ -72,7 +72,6 @@ const Index = () => {
           </span>
         </details>
       </div>
-      <span className="highlight">Note: Site Undergoing Renovation</span>
     </>
   );
 };

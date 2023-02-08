@@ -85,7 +85,6 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   background-color: $backgroundColor;
-  // background: url('../images/staticblue.png');
 }
 
 #canvas {
@@ -280,7 +279,10 @@ sup {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 40px;
+  @media (max-width: 500px) {
+    font-size: 30px;
+  }
 }
 
 .highlight {

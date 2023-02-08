@@ -47,7 +47,7 @@ const BlogPage = () => {
                         .replace('&#58;', ':')
                         .replace('&amp;', '&')}
                     </span>
-                    &nbsp;&nbsp;
+                    &nbsp;
                     <span className="highlight bold italic">
                       {post.node.frontmatter.updated}
                     </span>

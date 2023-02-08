@@ -14,12 +14,14 @@ const ProjectPage = () => {
           <details key={index} open={index < 3}>
             <summary>
               <span className="title highlight">{project.title}</span>
-              &nbsp;&nbsp;
+              &nbsp;
               <span className="highlight bold italic">{project.year}</span>
             </summary>
 
             <span className="highlight">{project.description}</span>
-            <a href={project.link}>View</a>
+            <a href={project.link}>
+              <span className="highlight">View</span>
+            </a>
           </details>
         ))}
       </section>

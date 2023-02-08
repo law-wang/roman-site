@@ -55,7 +55,7 @@ const ArtTemplate = (props) => {
   imageQuery.digital.edges.map((data) => digital.push(getImage(data.node)));
 
   let allArt = [traditional, design, digital];
-  let artNames = ['Traditional', 'Design', 'Digital'];
+  let artNames = ['Painting & Drawing', 'Design', 'Digital'];
 
   return (
     <>
