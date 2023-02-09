@@ -41,7 +41,7 @@ const Index = () => {
 
         <details open>
           <summary>
-            <span className="title highlight">Takes Interests In</span>
+            <span className="title highlight">Has Interests In</span>
           </summary>
           <span className="highlight">
             Intersection between design and computing <br />
@@ -57,6 +57,7 @@ const Index = () => {
             Fantasy world building <br />
             Floor plans <br />
             Political economy of China <br />
+            Taylor Swift's discography <br />
             Architecture <br />
             Genshin Impact <br />
           </span>
@@ -64,7 +65,7 @@ const Index = () => {
 
         <details open>
           <summary>
-            <span className="title highlight">Hopes to Become</span>
+            <span className="title highlight">Hopes To Become</span>
           </summary>
           <span className="highlight">
             Aspriational world traveller <br />
