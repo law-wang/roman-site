@@ -58,8 +58,8 @@ const projects = [
     title: 'In My Defense',
     year: '2019',
     description:
-      'Interactive poetry project that is actually a bunch of song lyrics pieced together.',
-    link: 'https://inmydefense.glitch.me/',
+      'An ode to old age. Interactive poetry project that is actually a bunch of song lyrics pieced together.',
+    link: 'https://inmydefense.rence.la/',
   },
   {
     title: '10 Albums of 2010s',
