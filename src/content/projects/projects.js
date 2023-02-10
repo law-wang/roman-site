@@ -1,10 +1,10 @@
 const projects = [
   {
-    title: 'Thoughts',
+    title: 'Wall',
     year: '2019-Present',
     description:
       'Type-foundry-esque platform for logging daily thoughts, monthly playlists, inspirational quotes, and spontaneous audio. Powered by AWS Amplify.',
-    link: 'https://thoughts.rence.la/',
+    link: 'https://wall.rence.la/',
   },
   {
     title: 'Spotlist Analysis',
