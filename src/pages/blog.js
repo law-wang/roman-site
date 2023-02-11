@@ -10,9 +10,9 @@ const BlogPage = () => {
         filter: {
           frontmatter: { type: { eq: "post" }, published: { eq: true } }
         }
-        sort: { fields: [frontmatter___updated], order: DESC }
+        sort: { frontmatter: { updated: DESC } }
       ) {
-        year: group(field: frontmatter___year) {
+        year: group(field: { frontmatter: { year: SELECT } }) {
           fieldValue
           edges {
             node {

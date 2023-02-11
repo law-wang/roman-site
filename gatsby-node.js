@@ -27,7 +27,7 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
         filter: {
           frontmatter: { type: { eq: "post" }, published: { eq: true } }
         }
-        sort: { fields: [frontmatter___updated], order: DESC }
+        sort: { frontmatter: { updated: DESC } }
       ) {
         edges {
           node {
@@ -44,8 +44,8 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
   const posts = result.data.posts.edges;
   posts.forEach(({ node }, index) => {
     createPage({
-      path: node.frontmatter.permalink,
       component: blogTemplate,
+      path: node.frontmatter.permalink,
       context: {
         next: index === posts.length - 1 ? null : posts[index + 1].node,
         previous: index === 0 ? null : posts[index - 1].node,
