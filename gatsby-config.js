@@ -28,6 +28,15 @@ module.exports = {
         icon: 'src/images/favicon.ico',
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ['G-XZ15GRH075'],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
     'gatsby-plugin-mdx',
     {
       resolve: `gatsby-plugin-sharp`,
