@@ -47,6 +47,7 @@ exports.createPages = async ({ graphql, actions, getNodes }) => {
       component: blogTemplate,
       path: node.frontmatter.permalink,
       context: {
+        permalink: node.frontmatter.permalink,
         next: index === posts.length - 1 ? null : posts[index + 1].node,
         previous: index === 0 ? null : posts[index - 1].node,
       },

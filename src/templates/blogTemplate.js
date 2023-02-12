@@ -86,8 +86,8 @@ const BlogTemplate = ({ data, pageContext }) => {
 export default BlogTemplate;
 
 export const postQuery = graphql`
-  query ($path: String!) {
-    markdownRemark(frontmatter: { permalink: { eq: $path } }) {
+  query ($permalink: String!) {
+    markdownRemark(frontmatter: { permalink: { eq: $permalink } }) {
       frontmatter {
         title
         updated(formatString: "MMMM DD[,] YYYY")
