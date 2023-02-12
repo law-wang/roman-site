@@ -1,7 +1,4 @@
 const path = require('path');
-const { get } = require('jquery');
-const fs = require('fs');
-const yaml = require('js-yaml');
 
 const blogTemplate = path.resolve(`./src/templates/blogTemplate.js`);
 
