@@ -121,7 +121,7 @@ const greetingArray = [
 
 // Main render function
 const Layout = ({ children }) => {
-  // checking broswer size for three.js zoom
+  // Checking broswer size for three.js zoom
   const isBrowser = typeof window !== 'undefined';
   let fov;
   if (isBrowser) {
@@ -133,16 +133,24 @@ const Layout = ({ children }) => {
       .fill()
       .map((key) => <Star key={key} />)
   );
-
   const [greetingText] = useState(
     greetingArray[Math.floor(Math.random() * greetingArray.length)]
   );
 
+  // Ensure footer does not pre-render at build time
+  const footerRef = useRef();
+  useEffect(() => {
+    footerRef.current.style.display = 'block';
+    console.log('changed');
+  }, []);
+
+  // Ensure page is scrolled to top on page change
   const contentRef = useRef();
   useEffect(() => {
     contentRef.current.scrollTop = 0;
   }, [children]);
 
+  // Add option to strip or fill background
   const canvasRef = useRef();
   const [stripButtonText, changeStripButtonText] = useState('Fill');
   const StripSite = () => {
@@ -207,7 +215,7 @@ const Layout = ({ children }) => {
         {children}
       </section>
 
-      <footer>
+      <footer ref={footerRef}>
         <div id="bottom">
           <div id="clock">
             <Clock />
