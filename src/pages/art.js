@@ -4,10 +4,7 @@ import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 import Seo from '../components/seo';
 
-const ArtTemplate = (props) => {
-  const { pageContext } = props;
-  const { pageTitle } = pageContext;
-
+const ArtPage = () => {
   const imageQuery = useStaticQuery(graphql`
     query {
       traditional: allFile(
@@ -59,7 +56,7 @@ const ArtTemplate = (props) => {
 
   return (
     <>
-      <Seo title={pageTitle} />
+      <Seo title="Art" />
 
       <section className="gallery">
         {allArt.map((category, index) => (
@@ -80,4 +77,4 @@ const ArtTemplate = (props) => {
   );
 };
 
-export default ArtTemplate;
+export default ArtPage;
