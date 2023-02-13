@@ -168,6 +168,9 @@ footer {
   max-height: calc(100% - 120px);
   overflow-x: hidden;
   overflow-y: scroll;
+  @media (max-width: 500px) {
+    max-height: calc(100% - 150px);
+  }
 }
 
 // DETAILS SUMMARY STYLES ****************************************************
