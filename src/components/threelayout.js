@@ -133,10 +133,9 @@ const Layout = ({ children }) => {
       .fill()
       .map((key) => <Star key={key} />)
   );
-  // const [greetingText] = useState(
-  //   greetingArray[Math.floor(Math.random() * greetingArray.length)]
-  // );
-  const [greetingText] = useState('Are you still there? Good.');
+  const [greetingText] = useState(
+    greetingArray[Math.floor(Math.random() * greetingArray.length)]
+  );
 
   // Ensure footer does not pre-render at build time
   const footerRef = useRef();

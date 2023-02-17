@@ -14,7 +14,7 @@ I can still feel the burn of teardrops that streamed down my face on that night 
 
 I scrolled past a Chinese quote as I ate dinner — that was four years ago, also a Spring night. It roughly translated to “I am scared that, even at the end, I never caught up to the self onto which so much hope was placed.” I rushed through dinner and paced down Alexander Walk for a club meeting.
 
-Every blow of wind was reminding me of the amount of solitude implicit in being in the streets where the only companions are lamp posts that are a regular shadow apart from each other. Taylor Swift was singing through my headphones “They see right through me. Can you see right through me? They see right through me. I see right through me.”
+Every blow of wind was reminding me of the amount of solitude implicit in being in the streets where the only companions are lamp posts that are a regular shadow apart. Taylor Swift was singing through my headphones “They see right through me. Can you see right through me? They see right through me. I see right through me.”
 
 I saw right through me then. The caprice. The pretension. The contradictions. The hopes of my eager parents — there is so much they don’t know. The cluelessness about how to get there. The powerlessness about never being able to get there. That’s when it hit me.
 
