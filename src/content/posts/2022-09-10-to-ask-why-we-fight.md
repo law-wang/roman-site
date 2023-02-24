@@ -7,7 +7,7 @@ category: Personal
 tag: [Reflection]
 permalink: '/blog/fight'
 type: post
-description: 'But is perception reality? Our knowledge of reality is grounded in our perception, so what if there is no material reality beyond our perception? That’s what Blow-Up led me to think about.'
+description: 'I always wondered if anyone actually reads these rambles of mine. After all, my writing is particularly literary. Does it matter if it's perceived? Does it matter who reads these?'
 ---
 
 If something was never perceived, did it actually happen? I've been thinking.
