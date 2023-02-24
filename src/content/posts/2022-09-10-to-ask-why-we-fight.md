@@ -7,7 +7,7 @@ category: Personal
 tag: [Reflection]
 permalink: '/blog/fight'
 type: post
-description: 'I always wondered if anyone actually reads these rambles of mine. After all, my writing is particularly literary. Does it matter if it's perceived? Does it matter who reads these?'
+description: "I always wondered if anyone actually reads these rambles of mine. After all, my writing is particularly literary. Does it matter if it's perceived? Does it matter who reads these?"
 ---
 
 If something was never perceived, did it actually happen? I've been thinking.
