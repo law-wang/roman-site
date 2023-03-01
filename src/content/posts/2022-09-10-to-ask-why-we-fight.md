@@ -10,7 +10,7 @@ type: post
 description: "I always wondered if anyone actually reads these rambles of mine. After all, my writing is particularly literary. Does it matter if it's perceived? Does it matter who reads these?"
 ---
 
-If something was never perceived, did it actually happen? I've been thinking.
+If something was never perceived, did it actually happen?
 
 There’s the thought experiment of “if a tree falls in a forest and no one is around to hear it, does it make a sound?” The scientific answer seems to be “no.” While sound waves are created as vibration propagates through air, no sound is heard because the waves are not perceived by a living organism.
 
