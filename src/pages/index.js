@@ -68,7 +68,7 @@ const Index = () => {
             <span className="title highlight">Hopes To Become</span>
           </summary>
           <span className="highlight">
-            Aspriational world traveller <br />
+            Aspirational world traveller <br />
             Someone who draws, writes, and codes <br />
           </span>
         </details>
