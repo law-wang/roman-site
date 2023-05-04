@@ -7,7 +7,7 @@ category: Personal
 tag: [Reflection]
 permalink: '/blog/fight'
 type: post
-description: "I always wondered if anyone actually reads these rambles of mine. After all, my writing is particularly literary. Does it matter if it's perceived? Does it matter who reads these?"
+description: "I always wondered if anyone actually reads these rambles of mine. After all, my writing isn't particularly literary. Does it matter if it's perceived? Does it matter who reads these?"
 ---
 
 If something was never perceived, did it actually happen?
@@ -16,7 +16,7 @@ There’s the thought experiment of “if a tree falls in a forest and no one is
 
 As an extended question, if a tree falls in a forest and nothing is around to hear it, see it, know it, feel the consequence of it, past present and future, is it as if it didn’t fall? If something occurs, but no one sees it occurring, no one feels the consequence of its occurrence, no documentation of it exists, is it factually equivalent to that thing not occurring?
 
-I always wondered if anyone actually reads these rambles of mine. After all, my writing is particularly literary. Does it matter if it's perceived? Does it matter who reads these? Do these words mean anything if no one ever reads them? Were they ever even written if their consequence is felt by no one?
+I always wondered if anyone actually reads these rambles of mine. After all, my writing isn't particularly literary. Does it matter if it's perceived? Does it matter who reads these? Do these words mean anything if no one ever reads them? Were they ever even written if their consequence is felt by no one?
 
 So why do I write, if these words never meet a second pair of eyes? Why do I fight, fight the urge to sit back and dream sci-fi?
 
