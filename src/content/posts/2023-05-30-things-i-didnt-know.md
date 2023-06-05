@@ -32,6 +32,6 @@ That’s why, for as much as I find it amusing that a psychic once told my mom t
 
 So are there now. Infinite paths, waiting for our next move. For the past weeks, I’ve been wondering what I’ll pen down, about the end of it all. On move-out day, my gaze caught a patch of scratches on the granite tiles in the Timothy Dwight College foyer, accentuated by the shadows casted on it by a setting sun. I never noticed those marks before. I don’t know why but it made me think, for the first time (because I’ve been shitting on New Haven for so long), am I really ready to leave this place?
 
-I know I will hold on to these bright college years dearly. Yes, even you, Yale Hospitality. I want to thank everyone around me for putting up with my delirium these past four years, but also want you to know that I meant everything I said.
+I know I will hold on to these bright college years dearly. Yes, even you, Yale Hospitality. I want to thank everyone around me for putting up with my delirium these past four years, but I also want you to know that I meant everything I said.
 
-To everyone who I didn’t get a chance to say goodbye, there is no need. I’m always there. Take it slow. There is still a lot I haven’t put into words yet.
+To those who I didn’t get a chance to say goodbye, there is no need. I’m always here. Take it slow. There is still a lot I haven’t put into words yet.
