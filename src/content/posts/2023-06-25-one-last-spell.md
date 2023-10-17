@@ -12,7 +12,7 @@ description: 'I wish I had the chance to scribble on Grandma’s hand and blow o
 
 I thought yesterday was safe. 
 
-Grandma said that she would go on a rainy day — she always had a mystic air around her. Hence when I woke up to a cloudy but rainless sky, I told myself “good, it’s not gonna be today.”
+Grandma said that she would go on a rainy day — she always had a mystic aura about her. Hence when I woke up to a cloudy but rainless sky, I told myself “good, it’s not gonna be today.”
 
 I was wrong. A couple of harbinger drops fell as we left for the hospital. Then it became a persistent downpour. Then the doctors told us that her digestive tracts weren’t absorbing enough nutrients for her wounds to heal. That intubation was imminent if she stays in the ICU. That we should consider hospice and last words.
 
