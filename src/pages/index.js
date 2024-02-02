@@ -44,22 +44,22 @@ const Index = () => {
             <span className="title highlight">Has Interests In</span>
           </summary>
           <span className="highlight">
-            Intersection between design and computing <br />
-            Song lyrics <br />
+            Architecture <br />
             Chinese poems and fiction <br />
-            Grand strategy games <br />
-            Singing <br />
-            Interior design <br />
             Cities Skylines <br />
-            The European Union <br />
-            Web design <br />
-            Room sprays <br />
             Fantasy world building <br />
             Floor plans <br />
-            Political economy of China <br />
-            Taylor Swift's discography <br />
-            Architecture <br />
             Genshin Impact <br />
+            Grand strategy games <br />
+            Interior design <br />
+            Intersection between design and computing <br />
+            Perfume <br />
+            Political economy of China <br />
+            Singing <br />
+            Song lyrics <br />
+            Taylor Swift's discography <br />
+            The European Union <br />
+            Web design <br />
           </span>
         </details>
 
@@ -69,7 +69,9 @@ const Index = () => {
           </summary>
           <span className="highlight">
             Aspirational world traveller <br />
-            Someone who draws, writes, and codes <br />
+            Drawer, writer, and coder <br />
+            Good at Ruby <br />
+            Taller <br />
           </span>
         </details>
       </div>
